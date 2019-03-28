@@ -5,6 +5,7 @@ public class BinarySearch457 {
      * @param nums   : An integer array sorted in ascending order
      * @param target : An integer
      * @return: An integer
+     * 2019年03月28日10:59:01
      */
     public int findPosition(int[] nums, int target) {
         // write your code here
