@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ea81ac-a072-4dab-a434-71a1f1be5af0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/lintcode/FindTarget.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/recursion/Sum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/recursion/removeElement.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leecode/DeleteElement.java" afterPath="$PROJECT_DIR$/src/main/java/leecode/DeleteElement.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leecode/ListNode.java" afterPath="$PROJECT_DIR$/src/main/java/leecode/ListNode.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/DeleteElement.class" afterPath="$PROJECT_DIR$/target/classes/leecode/DeleteElement.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/leecode/ListNode.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lintcode/PeekPositions.class" afterPath="$PROJECT_DIR$/target/classes/lintcode/PeekPositions.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lintcode/FindTarget.java" afterPath="$PROJECT_DIR$/src/main/java/lintcode/FindTarget.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="removeElement.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="removeElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/recursion/removeElement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindTarget.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lintcode/FindTarget.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -133,11 +136,11 @@
         <option value="$PROJECT_DIR$/src/main/java/lintcode/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/lintcode/BinarySearch457.java" />
         <option value="$PROJECT_DIR$/src/main/java/lintcode/PeekPositions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lintcode/FindTarget.java" />
         <option value="$PROJECT_DIR$/src/main/java/leecode/DeleteElement.java" />
         <option value="$PROJECT_DIR$/src/main/java/leecode/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/recursion/Sum.java" />
         <option value="$PROJECT_DIR$/src/main/java/recursion/removeElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lintcode/FindTarget.java" />
       </list>
     </option>
   </component>
@@ -217,6 +220,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lintcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data Structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="recursion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -252,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.removeElement">
+  <component name="RunManager" selected="Application.FindTarget">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -451,10 +462,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.removeElement" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Sum" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DeleteElement" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FindTarget" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FindTarget" />
+        <item index="1" class="java.lang.String" itemvalue="Application.removeElement" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Sum" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DeleteElement" />
         <item index="4" class="java.lang.String" itemvalue="Application.PeekPositions" />
       </list>
     </recent_temporary>
@@ -483,12 +494,12 @@
       <workItem from="1553430497630" duration="1022000" />
       <workItem from="1553738504938" duration="3391000" />
       <workItem from="1553757328781" duration="1285000" />
-      <workItem from="1553825077433" duration="15877000" />
+      <workItem from="1553825077433" duration="17862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52293000" />
+    <option name="totallyTimeSpent" value="54278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,7 +523,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37604457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -553,8 +564,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32033426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37604457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2581574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -838,14 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lintcode/FindTarget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/linkList/LinkedListDummyHead.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-468">
@@ -896,6 +899,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lintcode/FindTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
           <folding />
         </state>
       </provider>

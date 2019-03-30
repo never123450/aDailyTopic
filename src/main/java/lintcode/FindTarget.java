@@ -11,61 +11,44 @@ public class FindTarget {
     public int binarySearch(int[] nums, int target) {
         // write your code here
 
-//        if (nums.length <= 0) {
-//            return -1;
-//        }
-//
 //        int start = 0;
 //        int end = nums.length - 1;
-//        System.out.println("start:"+start);
-//        System.out.println("end:"+end);
-//        while (start < end) {
-//            int mid = start + (end - start) / 2;
-//            System.out.println("mid:"+mid);
-//            if (target > nums[mid]) {
-//                start = mid + 1;
-//                System.out.println("target > nums[mid]");
-//                System.out.println("start:"+start);
-//                System.out.println("end:"+end);
-//                System.out.println("nums[start]:"+nums[start]);
-//                System.out.println("nums[end]:"+nums[end]);
-//            } else if (target < nums[mid]) {
+//        int res = -1;
+//
+//        while (start <= end) {
+//            int mid = start + ((end - start) >> 1);
+//            if (nums[mid] >= target) {
 //                end = mid - 1;
-//                System.out.println("target <= nums[mid]");
-//                System.out.println("start:"+start);
-//                System.out.println("end:"+end);
-//                System.out.println("nums[start]:"+nums[start]);
-//                System.out.println("nums[end]:"+nums[end]);
-//            }else {
-//                end = mid;
-//                start = mid;
-//                System.out.println("target <= nums[mid]");
-//                System.out.println("start:"+start);
-//                System.out.println("end:"+end);
-//                System.out.println("nums[start]:"+nums[start]);
-//                System.out.println("nums[end]:"+nums[end]);
+//                res = mid;
+//            } else {
+//                start = mid + 1;
 //            }
 //        }
 //
-//        System.out.println("执行完了");
-//        return end;
+//        if (res != -1 && nums[res] != target) {
+//            return -1;
+//        }
 
         int start = 0;
         int end = nums.length - 1;
         int res = -1;
 
         while (start <= end) {
-            int mid = start + ((end - start) >> 1);
-            if (nums[mid] >= target) {
+            int mid = start + (end - start) / 2;
+            if (nums[mid] > target) {
                 end = mid - 1;
-                res = mid;
-            } else {
+            } else if (nums[mid] < target) {
                 start = mid + 1;
+            } else {
+                //如果找到了就看他前一个是否等于target，如果等于再向前移一个再判断是否相等...
+                res = mid;
+                if (mid > 0 && nums[mid - 1] == target) {
+                    end = mid - 1;
+                    res = end;
+                } else {
+                    break;
+                }
             }
-        }
-
-        if (res != -1 && nums[res] != target) {
-            return -1;
         }
 
         return res;
@@ -73,8 +56,8 @@ public class FindTarget {
 
     public static void main(String[] args) {
         FindTarget findTarget = new FindTarget();
-        int nums[] = {4, 4, 5, 7, 7, 7, 8, 9, 9, 10};
-        int target = 9;
+        int nums[] = {1, 2, 3, 3, 4, 5, 10};
+        int target = 6;
         System.out.println(findTarget.binarySearch(nums, target));
     }
 
