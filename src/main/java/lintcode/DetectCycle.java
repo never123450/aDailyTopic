@@ -1,5 +1,14 @@
 package lintcode;
 
+/**
+ *
+ * @description: https://www.lintcode.com/problem/linked-list-cycle-ii/description
+ *
+ * @author: xwy
+ *
+ * @create: 2019年04月8日12:20:04
+**/
+
 public class DetectCycle {
 
     public ListNode detectCycle(ListNode head) {
