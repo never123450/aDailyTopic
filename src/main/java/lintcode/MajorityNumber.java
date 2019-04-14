@@ -3,6 +3,15 @@ package lintcode;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ *
+ * @description: https://www.lintcode.com/problem/majority-element/description
+ *
+ * @author: xwy
+ *
+ * @create: 2019年04月5日12:30:37
+**/
+
 public class MajorityNumber {
 
     public int findmajorityNumber(ArrayList<Integer> nums) {
