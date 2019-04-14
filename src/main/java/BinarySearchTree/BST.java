@@ -1,5 +1,7 @@
 package BinarySearchTree;
 
+import com.sun.org.apache.regexp.internal.RE;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -129,9 +131,9 @@ public class BST<E extends Comparable<E>> {
 
     // 后序遍历以node为根的二分搜索树, 递归算法
     private void postOrder(Node node) {
-
         if (node == null)
             return;
+
 
         postOrder(node.left);
         postOrder(node.right);
@@ -139,6 +141,12 @@ public class BST<E extends Comparable<E>> {
     }
 
     // 二分搜索树的层序遍历
+    /*
+        广度优先遍历的意义：
+            更快的找到问题的解
+            常用于算法设计中 - 最短路径
+            图中的深度优先遍历和广度优先遍历
+     */
     public void levelOrder() {
 
         Queue<Node> q = new LinkedList<>();
@@ -196,6 +204,7 @@ public class BST<E extends Comparable<E>> {
 
     // 删除掉以node为根的二分搜索树中的最小节点
     // 返回删除节点后新的二分搜索树的根
+    // 和add方法很像
     private Node removeMin(Node node) {
 
         if (node.left == null) {
@@ -231,6 +240,53 @@ public class BST<E extends Comparable<E>> {
 
         node.right = removeMax(node.right);
         return node;
+    }
+
+
+    //从二分搜索树中删除元素为e的节点
+    public void remove() {
+
+//        root = remove(root, e);
+    }
+
+    private Node remove(Node node, E e) {
+        if (node == null) {
+            return null;
+        }
+        if (e.compareTo(node.e) < 0) {
+            node.left = remove(node.left, e);
+            return node;
+        } else if (e.compareTo(node.e) > 0) {
+            node.right = remove(node.right, e);
+            return node;
+        } else {
+            //待删除的节点左子树为空的情况
+            if (node.left == null) {
+                Node rightNode = node.right;
+                node.right = null;
+                size--;
+                return node.right;
+            }
+            //待删除的节点右子树为空的情况
+            if (node.right == null) {
+                Node leftNode = node.left;
+                node.left = null;
+                size--;
+                return leftNode;
+            }
+            //待删除节点左右子树均不为空的情况
+            //找到比待删除节点大的最小节点 ，即待删除节点右子数的最小节点
+            //用这个节点顶替待删除节点的位置
+
+            Node sussessor = minimum(node.right);
+            sussessor.right = removeMin(node.right);
+            size++;
+            sussessor.left = node.left;
+
+            node.left = node.right = null;
+            size--;
+            return sussessor;
+        }
     }
 
     @Override
