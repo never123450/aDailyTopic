@@ -1,5 +1,14 @@
 package lintcode;
 
+/**
+ *
+ * @description://www.lintcodom/problem/sort-integers-ii/description'
+ *
+ * @author:
+ *
+ * @create:  2019年04月14日12:44:07
+**/
+
 public class QuickSort2 {
 
     public int partition(int[] arr, int l, int r) {

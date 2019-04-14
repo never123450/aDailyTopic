@@ -1,5 +1,14 @@
 package lintcode;
 
+/**
+ *
+ * @description: //www.lintcodom/problem/sort-integers-ii/description'
+ *
+ * @author: xwy
+ *
+ * @create: 2019年04月14日12:44:56
+**/
+
 public class QuickSort {
 
     private static void quickSort(int[] arr, int low, int high) {
