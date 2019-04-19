@@ -1,6 +1,6 @@
 package leecode;
 
-public class Solution1 {
+public class removeElements {
     public ListNode removeElements(ListNode head, int val) {
         while (head != null && head.val == val) {
             ListNode delNode = head;
