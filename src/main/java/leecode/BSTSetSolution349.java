@@ -1,4 +1,4 @@
-/// Leetcode 349. Intersection of Two Arrays
+package leecode;/// Leetcode 349. Intersection of Two Arrays
 /// https://leetcode.com/problems/intersection-of-two-arrays/description/
 
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-// Leetcode 804. Unique Morse Code Words
+package leecode;// Leetcode 804. Unique Morse Code Words
 // https://leetcode.com/problems/unique-morse-code-words/description/
 
 import java.util.Stack;

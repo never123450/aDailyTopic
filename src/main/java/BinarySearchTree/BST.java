@@ -244,9 +244,9 @@ public class BST<E extends Comparable<E>> {
 
 
     //从二分搜索树中删除元素为e的节点
-    public void remove() {
+    public void remove(E e) {
 
-//        root = remove(root, e);
+        root = remove(root, e);
     }
 
     private Node remove(Node node, E e) {
