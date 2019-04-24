@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.TreeMap;
 
-public class Solution {
+public class Solution1 {
 
     private class Freq implements Comparable<Freq>{
 
