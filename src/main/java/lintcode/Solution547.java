@@ -1,4 +1,4 @@
-/// Leetcode 547. Friend Circles
+package UnionFind;/// Leetcode 547. Friend Circles
 /// https://leetcode.com/problems/friend-circles/description/
 ///
 /// 课程中在这里暂时没有介绍这个问题
