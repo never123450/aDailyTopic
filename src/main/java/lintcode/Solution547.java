@@ -1,11 +1,11 @@
-package UnionFind;/// Leetcode 547. Friend Circles
+package lintcode;/// Leetcode 547. Friend Circles
 /// https://leetcode.com/problems/friend-circles/description/
 ///
 /// 课程中在这里暂时没有介绍这个问题
 /// 该代码主要用于使用Leetcode上的问题测试我们的UF类
 import java.util.TreeSet;
 
-class Solution {
+class Solution547 {
 
     private interface UF {
         int getSize();
