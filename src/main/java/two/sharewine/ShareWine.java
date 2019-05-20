@@ -1,45 +1,49 @@
-package com.dn.sharewine;
+package two.sharewine;
 
 public class ShareWine {
-	private int b1 = 12;
-	private int b2 = 8;
-	private int b3 = 5;
-	private int m = 6;//Ä¿±ê¾ÆÁ¿
-	//¼ÙÉèÒ»¿ªÊ¼12,0,0
-	private void backBottle(int bb1,int bb2,int bb3){
-		System.out.println("bb1:"+bb1+"~~bb2:"+bb2+"~~bb3:"+bb3);
-		if(bb1 == m||bb2 == m||bb3 == m){
-			System.out.println("find the bottle");
-			return;
-		}
-		if(bb2!=0&&bb3!=b3){
-			if(bb2+bb3<=b3){
-				//µ¹²»Âú
-				backBottle(bb1, 0, bb2+bb3);
-			}else{
-				backBottle(bb1, bb2-(b3-bb3), b3);
-			}
-		}else if(bb3==b3){
-			//Æ¿×Ó3ÂúÁË£¬ÍùÆ¿×Ó1µ¹
-			if(bb3+bb1<=b1){
-				//ËµÃ÷µ¹ÍêºóÆ¿×Ó1Ã»Âú
-				backBottle(bb1+bb3, bb2, 0);
-			}else{
-				backBottle(b1, bb2, bb3-(b1-bb1));
-			}
-		}else if(bb2 == 0){
-			//´ÓÆ¿×Ó1ÍùÆ¿×Ó2Àïµ¹¾Æ
-			if(bb1>=b2){
-				backBottle(bb1-b2, b2, bb3);
-			}else{
-				backBottle(0, bb1, bb3);
-			}
-		}
-		
-	}
-	
-	public static void main(String [] args){
-		ShareWine shareWine = new ShareWine();
-		shareWine.backBottle(12, 0, 0);
-	}
+    //ä¸‰ä¸ªå®¹å™¨
+    private int b1 = 12;
+    private int b2 = 8;
+    private int b3 = 5;
+    //ç›®æ ‡é‡
+    private int m = 6;
+
+    //å‡è®¾ä¸€å¼€å§‹12ï¼Œ0ï¼Œ0
+    private void backBottle(int bb1, int bb2, int bb3) {
+        System.out.println("bb1:" + bb1 + "~~bb2:" + bb2 + "~~bb3:" + bb3);
+        if (bb1 == m || bb2 == m || bb3 == m) {
+            System.out.println("find the bottle");
+            return;
+        }
+        if (bb2 != 0 && bb3 != b3) {
+            if (bb2 + bb3 <= b3) {
+                //å€’ä¸æ»¡
+                backBottle(bb1, 0, bb2 + bb3);
+            } else {
+                backBottle(bb1, bb2 - (b3 - bb3), b3);
+            }
+        } else if (bb3 == b3) {
+            //ç“¶å­3æ»¡äº†ï¼Œå¾€ç“¶å­1å€’
+            if (bb3 + bb1 <= b1) {
+                //è¯´æ˜å€’å®Œåï¼Œç“¶å­1æ²¡æ»¡
+                backBottle(bb1 + bb3, bb2, 0);
+            } else {
+                //
+                backBottle(b1, bb2, bb3 - (b1 - bb1));
+            }
+        } else if (bb2 == 0) {
+            //ä»ç“¶å­1å¾€ç“¶å­2å€’é…’
+            if (bb1 >= b2) {
+                backBottle(bb1 - b2, b2, bb3);
+            } else {
+                backBottle(0, bb1, bb3);
+            }
+        }
+
+    }
+
+    public static void main(String[] args) {
+        ShareWine shareWine = new ShareWine();
+        shareWine.backBottle(12, 0, 0);
+    }
 }

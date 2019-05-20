@@ -1,12 +1,12 @@
-package com.dn.josephus;
+package two.lcs.josephus;
 
 public class Josephus {
 	public static int N = 20;
-	public static int M = 5;//Êýµ½M¾ÍßÇ²ÁÒ»¸öÈË
+	public static int M = 5;//ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½Ç²ï¿½Ò»ï¿½ï¿½ï¿½ï¿½
 	
 	
 	class Node{
-		int val;//ÏÂ±ê
+		int val;//ï¿½Â±ï¿½
 		Node next;
 		public Node(int val){
 			this.val = val;
@@ -14,22 +14,22 @@ public class Josephus {
 	}
 	
 	public void killNode(){
-		Node header = new Node(1);//µÚÒ»¸ö½áµã
-		Node x = header;//Ä¿Ç°±»µãµ½ÈË
+		Node header = new Node(1);//ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½
+		Node x = header;//Ä¿Ç°ï¿½ï¿½ï¿½ãµ½ï¿½ï¿½
 		for(int i = 2;i<=N;i++){
 			x=(x.next = new Node(i));
 		}
-		x.next = header;//Í·Î²Ïà½Ó
-		System.out.println("±»ßÇ²ÁµÄË³ÐòÎª£º");
+		x.next = header;//Í·Î²ï¿½ï¿½ï¿½
+		System.out.println("ï¿½ï¿½ï¿½Ç²ï¿½ï¿½ï¿½Ë³ï¿½ï¿½Îªï¿½ï¿½");
 		while(x!=x.next){
-			//ÖÁÉÙ»¹ÓÐÁ©ÈË£¬ÈÔÈ»¼ÌÐø±¨Êý£¬ßÇàê
+			//ï¿½ï¿½ï¿½Ù»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			for(int i = 1;i<M;i++){
 				x = x.next;
 			}
-			System.out.println(x.next.val+"±»¸Éµô ");
+			System.out.println(x.next.val+"ï¿½ï¿½ï¿½Éµï¿½ ");
 			x.next = x.next.next;
 		}
-		System.out.println("×îºóÕâ¸öÐÒÔË¶ùÊÇ£º"+x.val);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¶ï¿½ï¿½Ç£ï¿½"+x.val);
 	}
 	
 	public static void main(String[] args){

@@ -1,83 +1,91 @@
-package com.dn.chess;
+package two.chess;
 
 public class ChessBoradProblem {
-	private int[][] board;//ÆåÅÌ
-	private int specialRow;//ÌØÊâµãµÄĞĞÏÂ±ê
-	private int specialCol;//ÌØÊâµãµÄÁĞÏÂ±ê
-	private int size;
-	private int type = 0;
-	public ChessBoradProblem(int specialRow, int specialCol, int size) {
-		super();
-		this.specialRow = specialRow;
-		this.specialCol = specialCol;
-		this.size = size;
-		board = new int[size][size];
-	}
-	/**
-	 * 
-	 * @param specialRow   ÌØÊâµãµÄĞĞÏÂ±ê
-	 * @param specialCol   ÌØÊâµãµÄÁĞÏÂ±ê
-	 * @param leftRow      ¾ØÕóµÄ×ó±ßÆğµãĞĞÏÂ±ê
-	 * @param leftCol      ¾ØÕó×ó±ßÆğµãµÄÁĞÏÂ±ê
-	 * @param size         ¾ØÕóµÄ¿í»òÕß¸ß
-	 */
-	private void ChessBoard(int specialRow,int specialCol,int leftRow,int leftCol,int size){
-		if(size == 1){
-			return;
-		}
-		int subSize = size/2;
-		type = type%4 + 1;
-		int n = type;
-		//¼ÙÉèÌØÊâµãÔÚ×óÉÏ½ÇÇøÓò
-		if(specialRow<leftRow+subSize&&specialCol<leftCol+subSize){
-			ChessBoard(specialRow, specialCol, leftRow, leftCol, subSize);
-		}else{
-			//²»ÔÚ×óÉÏ½Ç£¬×óÉÏ½Ç¾ØÕóµÄÓÒÏÂ½Ç¾ÍÊÇÌØÊâµã
-			board[leftRow+subSize-1][leftCol+subSize-1] = n;
-			ChessBoard(leftRow+subSize-1, leftCol+subSize-1, leftRow, leftCol, subSize);
-		}
-		//ÌØÊâµãÔÚÓÒÉÏ·½
-		if(specialRow<leftRow+subSize&&specialCol>=leftCol+subSize){
-			ChessBoard(specialRow, specialCol, leftRow, leftCol+subSize, subSize);
-		}else{
-			board[leftRow+subSize-1][leftCol+subSize] = n;
-			ChessBoard(leftRow+subSize-1, leftCol+subSize, leftRow, leftCol+subSize, subSize);
-		}
-		//ÌØÊâµãÔÚ×óÏÂ·½
-		if(specialRow>=leftRow+subSize&&specialCol<leftCol+subSize){
-			ChessBoard(specialRow, specialCol, leftRow+subSize, leftCol, subSize);
-		}else{
-			board[leftRow+subSize][leftCol+subSize-1] = n;
-			ChessBoard(leftRow+subSize, leftCol+subSize-1, leftRow+subSize, leftCol, subSize);
-		}
-		
-		//ÌØÊâµãÔÚÓÒÏÂ½Ç
-		if(specialRow>=leftRow+subSize&&specialCol>=leftCol+subSize){
-			ChessBoard(specialRow, specialCol, leftRow+subSize, leftCol+subSize, subSize);
-		}else{
-			board[leftRow+subSize][leftCol+subSize] = n;
-			ChessBoard(leftRow+subSize, leftCol+subSize, leftRow+subSize, leftCol+subSize, subSize);
-		}
-	}
-	
-	public void printBoard(int specialRow,int specialCol,int size){
-		ChessBoard(specialRow, specialCol, 0, 0, size);
-		printResult();
-	}
-	
-	private void printResult() {
-		for(int i = 0;i<size;i++){
-			for(int j = 0;j<size;j++){
-				System.out.print(board[i][j]+" ");
-			}
-			System.out.println();
-		}
-	}
-	public static void main(String[] args){
-		int N = 8;
-		int specialRow = 0;
-		int specialCol = 1;
-		ChessBoradProblem boradProblem = new ChessBoradProblem(specialRow, specialCol, N);
-		boradProblem.printBoard(specialRow, specialCol, N);
-	}
+
+    private int[][] board;//æ£‹ç›˜
+    private int specialRow;//ç‰¹æ®Šç‚¹çš„è¡Œä¸‹æ ‡
+    private int specialCol;//ç‰¹æ®Šç‚¹çš„åˆ—ä¸‹æ ‡
+    private int size;
+    private int type = 0;
+
+    public ChessBoradProblem(int specialRow, int specialCol, int size) {
+        super();
+        this.specialRow = specialRow;
+        this.specialCol = specialCol;
+        this.size = size;
+        board = new int[size][size];
+    }
+
+    /**
+     *
+     * @param specialRow ç‰¹æ®Šç‚¹çš„è¡Œä¸‹æ ‡
+     * @param specialCol ç‰¹æ®Šç‚¹çš„åˆ—ä¸‹æ ‡
+     * @param leftRow    çŸ©é˜µå·¦è¾¹èµ·ç‚¹çš„è¡Œä¸‹æ ‡
+     * @param leftCol    çŸ©é˜µå·¦è¾¹èµ·ç‚¹çš„åˆ—ä¸‹æ ‡
+     * @param size       çŸ©é˜µçš„å®½æˆ–è€…é«˜
+     *
+     */
+    private void ChessBoard(int specialRow, int specialCol, int leftRow, int leftCol, int size) {
+        if (size == 1) {
+            return;
+        }
+        int subSize = size / 2;
+        type = type % 4 + 1;
+        int n = type;
+
+        //å‡è®¾ç‰¹æ®Šç‚¹åœ¨å·¦ä¸Šè§’åŒºåŸŸ
+        if (specialRow < leftRow + subSize && specialCol < leftCol + subSize) {
+            ChessBoard(specialRow, specialCol, leftRow, leftCol, subSize);
+        } else {
+            //ä¸åœ¨å·¦ä¸Šè§’,å·¦ä¸Šè§’çŸ©é˜µçš„å³ä¸‹è§’å°±æ˜¯ç‰¹æ®ŠçŸ©é˜µ
+            board[leftRow + subSize - 1][leftCol + subSize - 1] = n;
+            ChessBoard(leftRow + subSize - 1, leftCol + subSize - 1, leftRow, leftCol, subSize);
+        }
+
+        //ç‰¹æ®Šç‚¹åœ¨å³ä¸Šè§’
+        if (specialRow < leftRow + subSize && specialCol >= leftCol + subSize) {
+            ChessBoard(specialRow, specialCol, leftRow, leftCol + subSize, subSize);
+        } else {
+            board[leftRow + subSize - 1][leftCol + subSize] = n;
+            ChessBoard(leftRow + subSize - 1, leftCol + subSize, leftRow, leftCol + subSize, subSize);
+        }
+
+        //ç‰¹æ®Šç‚¹åœ¨å³ä¸Šæ–¹
+        if (specialRow >= leftRow + subSize && specialCol < leftCol + subSize) {
+            ChessBoard(specialRow, specialCol, leftRow + subSize, leftCol, subSize);
+        } else {
+            board[leftRow + subSize][leftCol + subSize - 1] = n;
+            ChessBoard(leftRow + subSize, leftCol + subSize - 1, leftRow + subSize, leftCol, subSize);
+        }
+
+        //ç‰¹æ®Šç‚¹åœ¨å³ä¸‹æ–¹
+        if (specialRow >= leftRow + subSize && specialCol >= leftCol + subSize) {
+            ChessBoard(specialRow, specialCol, leftRow + subSize, leftCol + subSize, subSize);
+        } else {
+            board[leftRow + subSize][leftCol + subSize] = n;
+            ChessBoard(leftRow + subSize, leftCol + subSize, leftRow + subSize, leftCol + subSize, subSize);
+        }
+    }
+
+    public void printBoard(int specialRow, int specialCol, int size) {
+        ChessBoard(specialRow, specialCol, 0, 0, size);
+        printResult();
+    }
+
+    private void printResult() {
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                System.out.print(board[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        int N = 4;
+        int specialRow = 0;
+        int specialCol = 1;
+        ChessBoradProblem boradProblem = new ChessBoradProblem(specialRow, specialCol, N);
+        boradProblem.printBoard(specialRow, specialCol, N);
+    }
 }

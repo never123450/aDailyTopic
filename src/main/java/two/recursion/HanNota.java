@@ -1,4 +1,4 @@
-package com.dn.recursion;
+package two.recursion;
 
 public class HanNota {
 	private int i = 1;
@@ -6,14 +6,14 @@ public class HanNota {
 		if(n == 1){
 			move(1,from,to);
 		}else{
-			hanNota(n-1,from,to,dependOn);//第一步，先将n-1个盘子从A利用C挪到B
-			move(n, from, to);//讲n这个盘子（底盘）从A挪到C
-			hanNota(n-1,dependOn,from,to);//讲n-1个盘子从B利用A挪到C
+			hanNota(n-1,from,to,dependOn);//绗竴姝ワ細灏唍-1涓洏瀛愪粠A鍒╃敤C鎸埌B
+			move(n, from, to);//灏嗚繖n涓洏瀛愪粠A鎸埌C
+			hanNota(n-1,dependOn,from,to);//灏唍-1涓洏瀛愪粠B鍒╃敤A鎸埌C
 		}
 	}
 
 	private void move(int n, char from, char to) {
-		System.out.println("第"+i+++"步从"+from+"------>"+to);
+		System.out.println("锟斤拷"+i+++"锟斤拷锟斤拷"+from+"------>"+to);
 	}
 	
 	public static void main(String [] args){

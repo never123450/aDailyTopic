@@ -1,4 +1,4 @@
-package com.dn.sort;
+package two.lcs.bigcount;
 
 
 public class BigCount {
@@ -16,17 +16,17 @@ public class BigCount {
 		char[] s1 = str1.toCharArray();
 		char[] s2 = str2.toCharArray();
 
-		// ¸ßµÍÎ»¶Ôµ÷
+		// ï¿½ßµï¿½Î»ï¿½Ôµï¿½
 		covertdata(s1, len1);
 		covertdata(s2, len2);
-		System.out.println("³ËÊý£º"+str1);
-		System.out.println("³ËÊý£º"+str2);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+str1);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+str2);
 		multiply(s1, len1, s2, len2);
 
 	}
 
 	public static void covertdata(char data[], int len) {
-		//¸ßµÍÎ»¶Ôµ÷
+		//ï¿½ßµï¿½Î»ï¿½Ôµï¿½
 		for (int i = 0; i < len / 2; i++) {
 			data[i] += data[len - 1 - i];
 			data[len - 1 - i] = (char) (data[i] - data[len - 1 - i]);
@@ -35,36 +35,36 @@ public class BigCount {
 	}
 
 	public static void multiply(char a[], int alen, char b[], int blen) {
-		// Á½Êý³Ë»ýÎ»Êý²»»á³¬¹ý³ËÊýÎ»ÊýºÍ+ 3Î»
+		// ï¿½ï¿½ï¿½ï¿½ï¿½Ë»ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½á³¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½+ 3Î»
 		int csize = alen + blen + 3;
-		// ¿ª±Ù³Ë»ýÊý×é
+		// ï¿½ï¿½ï¿½Ù³Ë»ï¿½ï¿½ï¿½ï¿½ï¿½
 		int[] c = new int[csize];
-//		// ³Ë»ýÊý×éÌî³ä0
+//		// ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0
 //		for (int ii = 0; ii < csize; ii++) {
 //			c[ii] = 0;
 //		}
-		// ¶ÔÆëÖðÎ»Ïà³Ë
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½
 		for (int j = 0; j < blen; j++) {
 			for (int i = 0; i < alen; i++) {
 				c[i + j] +=  Integer.parseInt(String.valueOf(a[i]))* Integer.parseInt(String.valueOf(b[j]));
 			}
 		} 
 		int m = 0;
-		// ½øÎ»´¦Àí
+		// ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½
 		for (m = 0; m < csize; m++) {
 			int carry = c[m] / 10;
 			c[m] = c[m] % 10;
 			if (carry > 0)
 				c[m + 1] += carry;
 		}
-		// ÕÒµ½×î¸ßÎ»
+		// ï¿½Òµï¿½ï¿½ï¿½ï¿½Î»
 		for (m = csize - 1; m >= 0;) {
 			if (c[m] > 0)
 				break;
 			m--;
 		}
-		// ÓÉ×î¸ßÎ»¿ªÊ¼´òÓ¡³Ë»ý
-		System.out.print("³Ë»ý£º");
+		// ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½Ê¼ï¿½ï¿½Ó¡ï¿½Ë»ï¿½
+		System.out.print("ï¿½Ë»ï¿½ï¿½ï¿½");
 		for (int n = 0; n <= m; n++) {
 			System.out.print(c[m - n]);
 		}

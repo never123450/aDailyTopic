@@ -1,4 +1,4 @@
-package LRU;
+package three.LRU;
 
 import java.util.Scanner;
 

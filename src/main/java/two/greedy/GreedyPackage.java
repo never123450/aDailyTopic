@@ -1,58 +1,59 @@
-package com.dn.greedy;
+package two.greedy;
 
 import java.util.Arrays;
 
 public class GreedyPackage {
-	private int  MAX_WEIGHT = 20;
-	private int[] weights = new int[]{35,30,60,50,40,10,25};
-	private int[] values = new int[]{10,40,30,50,35,40,30};
-	
-	private void packageGreedy(int capacity,int weights[],int[] values){
-		int n = weights.length;
-		double[] r = new double[n];//ĞÔ¼Û±ÈÊı×é
-		int [] index = new int[n];//°´ĞÔ¼Û±ÈÅÅĞòÎïÆ·µÄÏÂ±ê
-		for(int i = 0;i<n;i++){
-			r[i] = (double)values[i]/weights[i];
-			index[i] = i;//Ä¬ÈÏÅÅĞò
-		}
-		
-		double temp = 0;//¶ÔĞÔ¼Û±È½øĞĞÅÅĞò
-		for(int i = 0;i<n-1;i++){
-			for(int j = i+1;j<n;j++){
-				if(r[i]<r[j]){
-					temp = r[i];
-					r[i] = r[j];
-					r[j] = temp;
-					int x = index[i];
-					index[i] = index[j];
-					index[j] = x;
-				}
-			}
-		}
-		//ÅÅĞòºÃµÄÖØÁ¿ºÍ¼ÛÖµ·Ö±ğ´æµ½Êı×é
-		int[] w1 = new int[n];
-		int[] v1 = new int[n];
-		for(int i = 0;i<n;i++){
-			w1[i] = weights[index[i]];
-			v1[i] = values[index[i]];
-		}
-		int[] x = new int[n];
-		int maxValue = 0;
-		for(int i = 0;i<n;i++){
-			if(w1[i]<capacity){
-				//»¹¿ÉÒÔ×°µÃÏÂ
-				x[i] = 1;//±íÊ¾¸ÃÎïÆ·±»×°ÁË
-				maxValue+=v1[i];
-				System.out.println("ÎïÆ·"+w1[i]+"±»·Å½ø°ü°ü");
-				capacity = capacity - w1[i];
-			}
-		}
-		System.out.println("×Ü¹²·ÅÏÂµÄÎïÆ·ÊıÁ¿£º"+Arrays.toString(x));
-		System.out.println("×î´ó¼ÛÖµ£º"+maxValue);
-	}
-	
-	public static void main(String [] args){
-		GreedyPackage greedyPackage = new GreedyPackage();
-		greedyPackage.packageGreedy(greedyPackage.MAX_WEIGHT, greedyPackage.weights, greedyPackage.values);;
-	}
+    private int MAX_WEIGHT = 20;
+    private int[] weights = new int[]{35, 30, 60, 50, 40, 10, 25};
+    private int[] values = new int[]{10, 40, 30, 50, 35, 40, 30};
+
+    private void packageGreedy(int capacity, int weights[], int[] values) {
+        int n = weights.length;
+        double[] r = new double[n];//æ€§ä»·æ¯”æ•°ç»„
+        int[] index = new int[n];//æŒ‰ç…§æ€§ä»·æ¯”æ’åºç‰©å“çš„ä¸‹æ ‡
+        for (int i = 0; i < n; i++) {
+            r[i] = (double) values[i] / weights[i];
+            index[i] = i;//é»˜è®¤æ’åº
+        }
+
+        double temp = 0;//å¯¹æ€§ä»·æ¯”è¿›è¡Œæ’åº
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (r[i] < r[j]) {
+                    temp = r[i];
+                    r[i] = r[j];
+                    r[j] = temp;
+                    int x = index[i];
+                    index[i] = index[j];
+                    index[j] = x;
+                }
+            }
+        }
+        //æ’åºåçš„é‡é‡å’Œä»·å€¼åˆ†åˆ«å­˜åˆ°æ•°ç»„
+        int[] w1 = new int[n];
+        int[] v1 = new int[n];
+        for (int i = 0; i < n; i++) {
+            w1[i] = weights[index[i]];
+            v1[i] = values[index[i]];
+        }
+        int[] x = new int[n];
+        int maxValue = 0;
+        for (int i = 0; i < n; i++) {
+            if (w1[i] < capacity) {
+                //è¿˜å¯ä»¥è£…å¾—ä¸‹
+                x[i] = 1;//è¡¨ç¤ºè¯¥ç‰©å“è¢«è£…äº†
+                maxValue += v1[i];
+                System.out.println("ç‰©å“" + w1[i] + "è¢«æ”¾è¿›èƒŒåŒ…   " + "ä»·å€¼ï¼š" + v1[i]);
+                capacity = capacity - w1[i];
+            }
+        }
+        System.out.println("æ€»å…±æ”¾ä¸‹ç‰©å“çš„æ•°é‡ï¼š" + Arrays.toString(x));
+        System.out.println("æœ€å¤§ä»·å€¼ï¼š" + maxValue);
+    }
+
+    public static void main(String[] args) {
+        GreedyPackage greedyPackage = new GreedyPackage();
+        greedyPackage.packageGreedy(greedyPackage.MAX_WEIGHT, greedyPackage.weights, greedyPackage.values);
+        ;
+    }
 }

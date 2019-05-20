@@ -1,6 +1,6 @@
-package com.dn.recursion;
+package two.recursion;
 
-public class Haonoi {//ººÅµËþ
+public class Haonoi {//ï¿½ï¿½Åµï¿½ï¿½
 	int i = 1;
 	public void haoNoi(int n,char from,char dependOn,char to){
 		if(n == 1){
@@ -15,7 +15,7 @@ public class Haonoi {//ººÅµËþ
 	
 	
 	public void move(int n,char from,char to){
-		System.out.println("µÚ"+i+++"²½,½«ÅÌ×Ó"+from+"------>"+to);
+		System.out.println("ï¿½ï¿½"+i+++"ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+from+"------>"+to);
 		
 	}
 	

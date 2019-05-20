@@ -1,49 +1,49 @@
-package com.dn.queen;
+package two.lcs.queen;
 
 
 public class Queen {
-	public static int num = 0;//ÀÛ¼Æ·½°¸
+	public static int num = 0;//ï¿½Û¼Æ·ï¿½ï¿½ï¿½
 	public static final int MAXQUEEN = 8;
-	public static int[] cols = new int[MAXQUEEN];//¶¨ÒåcolsÊý×é£¬±íÊ¾8ÁÐÆå×Ó»Êºó°Ú·ÅµÄÎ»ÖÃ
+	public static int[] cols = new int[MAXQUEEN];//ï¿½ï¿½ï¿½ï¿½colsï¿½ï¿½ï¿½é£¬ï¿½ï¿½Ê¾8ï¿½ï¿½ï¿½ï¿½ï¿½Ó»Êºï¿½Ú·Åµï¿½Î»ï¿½ï¿½
 	
 	/**
 	 * 
-	 * @param n   ÌîµÚnÁÐµÄ»Êºó
+	 * @param n   ï¿½ï¿½ï¿½nï¿½ÐµÄ»Êºï¿½
 	 */
 	public void getCount(int n){
-		boolean [] rows = new boolean[MAXQUEEN];//¼ÇÂ¼Ã¿ÁÐÃ¿¸ö·½¸ñÊÇ·ñ¿ÉÒÔ·Å»Êºó
+		boolean [] rows = new boolean[MAXQUEEN];//ï¿½ï¿½Â¼Ã¿ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Ô·Å»Êºï¿½
 		for(int m = 0;m<n;m++){
 			rows[cols[m]] = true;
-			int d = n - m;//Ð±¶Ô½Ç
-			//ÕýÐ±·½Ïò
+			int d = n - m;//Ð±ï¿½Ô½ï¿½
+			//ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½
 			if(cols[m]-d>=0){
 				rows[cols[m] -d] = true;
 			}
-			//·´Ð±·½Ïò
+			//ï¿½ï¿½Ð±ï¿½ï¿½ï¿½ï¿½
 			if(cols[m]+d<=(MAXQUEEN-1)){
 				rows[cols[m]+d] = true;
 			}
 		}
-		//µ½´ËÖªµÀÁËÄÄÐ©Î»ÖÃ²»ÄÜ·Å»Êºó
+		//ï¿½ï¿½ï¿½ï¿½Öªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©Î»ï¿½Ã²ï¿½ï¿½Ü·Å»Êºï¿½
 		for(int i = 0;i<MAXQUEEN;i++){
 			if(rows[i]){
-				//²»ÄÜ·Å
+				//ï¿½ï¿½ï¿½Ü·ï¿½
 				continue;
 			}
 			cols[n] = i;
 			if(n<MAXQUEEN-1){
 				getCount(n+1);
 			}else{
-				//ÕÒµ½ÍêÕûµÄÒ»Ì×·½°¸
+				//ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½×·ï¿½ï¿½ï¿½
 				num++;
 				printQueen();
 			}
-			//ÏÂÃæ¿ÉÄÜÈÔÈ»ÓÐºÏ·¨Î»ÖÃ
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È»ï¿½ÐºÏ·ï¿½Î»ï¿½ï¿½
 		}
 	}
 
 	private void printQueen() {
-		System.out.println("µÚ"+num+"ÖÖ·½°¸");
+		System.out.println("ï¿½ï¿½"+num+"ï¿½Ö·ï¿½ï¿½ï¿½");
 		for(int i = 0;i<MAXQUEEN;i++){
 			for(int j = 0;j<MAXQUEEN;j++){
 				if(i == cols[j]){
