@@ -1,4 +1,4 @@
-package one.linkList;
+package LRU;
 
 import java.util.Scanner;
 
