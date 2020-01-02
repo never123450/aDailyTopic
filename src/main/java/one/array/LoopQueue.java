@@ -1,19 +1,19 @@
 package one.array;
 
-public class loopQueue<E> implements Queue<E> {
+public class LoopQueue<E> implements Queue<E> {
 
     private E[] data;
     private int front, tail;
     private int size;
 
-    public loopQueue(int capacity) {
+    public LoopQueue(int capacity) {
         data = (E[]) new Object[capacity + 1];
         front = 0;
         size = 0;
         tail = 0;
     }
 
-    public loopQueue() {
+    public LoopQueue() {
         this(10);
     }
 
@@ -88,7 +88,7 @@ public class loopQueue<E> implements Queue<E> {
     }
 
     public static void main(String[] args) {
-        loopQueue<Integer> queue = new loopQueue<Integer>();
+        LoopQueue<Integer> queue = new LoopQueue<Integer>();
         for (int i = 0; i < 10; i++) {
             queue.enqueue(i);
             System.out.println(queue);

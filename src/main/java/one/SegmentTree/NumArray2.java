@@ -23,7 +23,7 @@ public class NumArray2 {
 
     public void update(int index,int val) {
         if (SegmentTree == null ){
-            throw new IllegalArgumentException("Segment tree is null");
+            throw new IllegalArgumentException("Segment three is null");
         }
         SegmentTree.set(index,val);
     }
