@@ -3,7 +3,7 @@ package leecode;/// Leetcode 211. Add and Search Word - Data structure design
 
 import java.util.TreeMap;
 
-public class WordDictionary {
+public class WordDictionary211 {
 
     private class Node {
 
@@ -25,7 +25,7 @@ public class WordDictionary {
     /**
      * Initialize your data structure here.
      */
-    public WordDictionary() {
+    public WordDictionary211() {
         root = new Node();
     }
 
@@ -59,6 +59,7 @@ public class WordDictionary {
 
         char c = word.charAt(index);
 
+        //?????????????????????????????
         if (c != '.') {
             if (node.next.get(c) == null)
                 return false;

@@ -236,7 +236,7 @@ class Solution {
             }
         }
 
-        // 看堆中的最大元素
+        // 查找堆中的最大元素
         public E findMax(){
             if(data.getSize() == 0)
                 throw new IllegalArgumentException("Can not findMax when heap is empty.");

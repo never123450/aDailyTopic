@@ -3,21 +3,25 @@ package one.recursion;
 import leecode.ListNode;
 
 //使用递归删除链表中的元素
-public class removeElement {
+public class removeElement203 {
 
+    // ????????????? 递归删除
     public ListNode removeElements(ListNode head, int val) {
         if (head == null) {
             return head;
         }
 
         ListNode res = removeElements(head.next, val);
-
         if (head.val == val) {
             return res;
         } else {
             head.next = res;
             return head;
         }
+
+
+//        head.next = removeElements(head.next,val);
+//        return head.val == val ? head.next : head;
     }
 
     public ListNode removeElements(ListNode head, int val, int depth) {
@@ -63,11 +67,11 @@ public class removeElement {
         ListNode head = new ListNode(nums);
         System.out.println(head);
 
-//        ListNode listNode = (new removeElement()).removeElements(head, 6);
+//        ListNode listNode = (new removeElement203()).removeElements(head, 6);
 //        System.out.println(listNode);
 
 
-        ListNode listNode = (new removeElement()).removeElements(head, 6, 0);
+        ListNode listNode = (new removeElement203()).removeElements(head, 6, 0);
         System.out.println(listNode);
     }
 

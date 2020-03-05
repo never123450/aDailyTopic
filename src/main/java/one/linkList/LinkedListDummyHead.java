@@ -121,13 +121,12 @@ public class LinkedListDummyHead<E> {
     //删除元素
     public E remove(int index) {
         if (index < 0 || index > size) {
-            throw new IllegalArgumentException("add faild. illegal idnex.");
+            throw new IllegalArgumentException("add failed. illegal index.");
         }
 
         Node prev = dummyHead;
         for (int i = 0; i < index; i++) {
             prev = prev.next;
-            System.out.println(prev);
         }
 
         Node retNode = prev.next;

@@ -17,7 +17,7 @@ public class main {
 //        array.remove(2);
 //        System.out.println(array);
 //
-//        array.removeElement(4);
+//        array.removeElement203(4);
 //        System.out.println(array);
 //
 //        array.removeFirst();

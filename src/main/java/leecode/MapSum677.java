@@ -3,7 +3,7 @@ package leecode;
 import java.util.TreeMap;
 
 //  https://leetcode.com/problems/map-sum-pairs/
-public class MapSum {
+public class MapSum677 {
 
     private class Node {
 
@@ -25,7 +25,7 @@ public class MapSum {
     /**
      * Initialize your data structure here.
      */
-    public MapSum() {
+    public MapSum677() {
 
         root = new Node();
     }
@@ -65,7 +65,7 @@ public class MapSum {
 
 
     public static void main(String[] args) {
-        MapSum obj = new MapSum();
+        MapSum677 obj = new MapSum677();
         obj.insert("ab", 1);
         obj.insert("abb",2);
         int param_2 = obj.sum("ab");

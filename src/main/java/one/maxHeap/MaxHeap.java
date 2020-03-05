@@ -38,12 +38,12 @@ public class MaxHeap<E extends Comparable<E>> {
     }
 
     // 返回完全二叉树的数组表示中，一个索引所表示的元素的左孩子节点的索引
-    private int leftChild(int index) {
+    private int leftChildIndex(int index) {
         return index * 2 + 1;
     }
 
     // 返回完全二叉树的数组表示中，一个索引所表示的元素的右孩子节点的索引
-    private int rightChild(int index) {
+    private int rightChildIndex(int index) {
         return index * 2 + 2;
     }
 
@@ -82,12 +82,12 @@ public class MaxHeap<E extends Comparable<E>> {
 
     private void siftDown(int k) {
 
-        while (leftChild(k) < data.getSize()) {
-            int j = leftChild(k); // 在此轮循环中,data[k]和data[j]交换位置
+        while (leftChildIndex(k) < data.getSize()) {
+            int j = leftChildIndex(k); // 在此轮循环中,data[k]和data[j]交换位置
             if (j + 1 < data.getSize() &&
                     data.get(j + 1).compareTo(data.get(j)) > 0)
                 j++;
-            // data[j] 是 leftChild 和 rightChild 中的最大值
+            // data[j] 是 leftChildIndex 和 rightChildIndex 中的最大值
 
             if (data.get(k).compareTo(data.get(j)) >= 0)
                 break;
