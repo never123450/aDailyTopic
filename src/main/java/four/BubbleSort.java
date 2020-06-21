@@ -10,10 +10,10 @@ package four;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {1, 0, 6, 4, 3, 7, 2, 9, 8, 25};
+        int[] arr = {1, 0, 6, 6, 3, 5, 7, 82, 1, 1};
 
         print(arr);
-        sort(arr);
+        sort2(arr);
 
         System.out.println();
         print(arr);
@@ -21,23 +21,39 @@ public class BubbleSort {
     }
 
 
+    public static void sort2(int[] arr) {
+        int n = arr.length;
+        if (n <= 1) return;
+        for (int i = 0; i < n; i++) {
+            //提前退出冒泡循环的标志位
+            boolean flag = false;
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] > arr[i]) {  // 疑问？？？？为什么改成 < 就不行了呢
+                    swop(arr, i, j);
+                    flag = true;
+                }
+            }
+            if (!flag) break;
+        }
+    }
+
     /*
          小的数往前移
      */
-//    public static void sort(int[] arr) {
-//        for (int i = 0; i < arr.length - 1; i++) {
-//            for (int j = i + 1; j < arr.length; j++) {
-//                if (arr[i] > arr[j]) {
-//                    swop(arr, i, j);
-//                }
-//            }
-//        }
-//    }
+    public static void sort1(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] > arr[j]) {
+                    swop(arr, i, j);
+                }
+            }
+        }
+    }
 
     /*
        大的数往后移
        可以优化一下
-       因为冒泡排序没循环完一次都会把最小的数据放到最前面，所以前面都是排好序的数据
+       因为冒泡排序每循环完一次都会把最小的数据放到最前面，所以前面都是排好序的数据
        当前面的数据已经按从小到大的顺序排好了，就不用再循环排好的数据了
        设置一个flag，当arr[i] <= arr[j]时就不用继续循环了
     */
@@ -51,6 +67,7 @@ public class BubbleSort {
                     flag = true;
                 }
             }
+            if (!flag) break;
         }
     }
 

@@ -3,6 +3,20 @@ package two.binaryTree;
 import java.util.ArrayList;
 import java.util.Stack;
 
+/**
+ * @description: 二叉树：（非递归&递归）
+ * 前序遍历
+ * 中序遍历
+ * 后续遍历
+ * <p>
+ * 获取高度
+ * 获取节点数
+ * <p>
+ * 建立二叉树
+ * @author: xwy
+ * @create: 3:05 PM 2020/6/5 重温
+ **/
+
 public class BinaryTree {
     private TreeNode root = null;
 
@@ -123,10 +137,10 @@ public class BinaryTree {
 
     /**
      * 通过前序遍历的数据序列反向生成二叉树
-     * A
-     * B               C
-     * D         E        #           F
-     * #         #   #       #           #       #
+     *                   A
+     *          B                       C
+     *      D            E        #             F
+     * #         #   #       #        #     #         #
      * <p>
      * ABD##E##C#F##
      */
@@ -221,7 +235,7 @@ public class BinaryTree {
      */
     public void putTreeNode(int key) {
         TreeNode node = null;
-        if (root == null){
+        if (root == null) {
 
         }
     }

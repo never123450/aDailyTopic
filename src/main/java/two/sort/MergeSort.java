@@ -33,6 +33,7 @@ public class MergeSort {
         while (rightStart <= right) {
             tmpArray[third++] = a[rightStart++];
         }
+        //把排序后的数组放回a中
         while (tmp <= right) {
             a[tmp] = tmpArray[tmp++];
         }
@@ -50,4 +51,9 @@ public class MergeSort {
             System.out.print(" " + n);
         }
     }
+
+
+
+
+
 }

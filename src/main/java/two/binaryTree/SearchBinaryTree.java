@@ -1,6 +1,14 @@
 package two.binaryTree;
 
-import lintcode.BinarySearch457;
+
+/**
+ *
+ * @description:
+ *
+ * @author: xwy
+ *
+ * @create: 4:19 PM 2020/6/5  重温
+**/
 
 public class SearchBinaryTree {
     private TreeNode root;

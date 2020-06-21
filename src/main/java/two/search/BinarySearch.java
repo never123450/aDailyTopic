@@ -18,7 +18,7 @@ public class BinarySearch {
         if (low > high) {
             return -1;
         }
-        int middle =  low + (high - low) / 2;
+        int middle = low + (high - low) / 2;
         System.out.println("middle222:" + middle);
         if (array[middle] == elem) {
             System.out.println("找到对应元素值，下标为：" + middle);
@@ -42,7 +42,7 @@ public class BinarySearch {
         int low = 0;
         int high = array.length - 1;
         while (low <= high) {
-            int middle = (low + high) / 2;
+            int middle = low + (high - low) / 2;
             if (elem > array[middle]) {
                 //右边找
                 low = middle + 1;

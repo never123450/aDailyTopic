@@ -1,4 +1,4 @@
-package leecode;
+package leecode.stack;
 
 import java.util.Stack;
 
@@ -39,7 +39,7 @@ public class Solution20 {
 
     public static void main(String[] args) {
         Solution20 solution20 = new Solution20();
-        boolean valid = solution20.isValid("");
+        boolean valid = solution20.isValid("()}");
         System.out.println(valid);
     }
 

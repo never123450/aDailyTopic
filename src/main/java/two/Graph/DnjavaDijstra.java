@@ -1,6 +1,15 @@
 package two.Graph;
 
 
+/**
+ *
+ * @description: 
+ *
+ * @author: xwy
+ *
+ * @create: 10:04 PM 2020/6/20
+**/
+
 public class DnjavaDijstra {
     private final static int MAXVEX = 9;
     private final static int MAXWEIGHT = 65535;
