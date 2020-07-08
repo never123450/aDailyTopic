@@ -1,6 +1,11 @@
 package two.sort;
 
-//堆排序
+/**
+ * @description: 堆排序
+ * @author: xwy
+ * @create: 10:29 AM 2020/7/5
+ **/
+
 public class HeapSort {   //(1)
     public static void main(String[] args) {
         HeapSort heapSort = new HeapSort();

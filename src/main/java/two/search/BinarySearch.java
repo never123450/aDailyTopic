@@ -3,6 +3,15 @@ package two.search;
 
 import two.sort.BasicSort;
 
+/**
+ *
+ * @description: 
+ *
+ * @author: xwy
+ *
+ * @create: 3:32 PM 2020/7/5
+**/
+
 public class BinarySearch {
 
     /**

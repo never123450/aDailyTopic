@@ -1,5 +1,14 @@
 package two.sharewine;
 
+/**
+ *
+ * @description: 泊松汾酒
+ *
+ * @author: xwy
+ *
+ * @create: 10:49 PM 2020/7/6
+**/
+
 public class ShareWine {
     //三个容器
     private int b1 = 12;
@@ -16,6 +25,7 @@ public class ShareWine {
             return;
         }
         if (bb2 != 0 && bb3 != b3) {
+            //瓶子2不为空，瓶子3没满，瓶子2和瓶子3都有水都没满
             if (bb2 + bb3 <= b3) {
                 //倒不满
                 backBottle(bb1, 0, bb2 + bb3);
@@ -32,7 +42,7 @@ public class ShareWine {
                 backBottle(b1, bb2, bb3 - (b1 - bb1));
             }
         } else if (bb2 == 0) {
-            //从瓶子1往瓶子2倒酒
+            //瓶子2是空的 从瓶子1往瓶子2倒酒
             if (bb1 >= b2) {
                 backBottle(bb1 - b2, b2, bb3);
             } else {

@@ -1,13 +1,22 @@
 package two.dispatch;
 
+/**
+ * @description:  矩阵
+ * @author: xwy
+ * @create: 4:32 PM 2020/7/8
+ **/
+
 public class SportsSchedule {
+    // n*n 的矩阵
     public void scheduleTable(int[][] table, int n) {
         if (n == 1) {
             table[0][0] = 1;
         } else {
+
             //填充左上区域矩阵
             int m = n / 2;
             scheduleTable(table, m);
+
             //填充右上区域矩阵
             for (int i = 0; i < m; i++) {
                 for (int j = m; j < n; j++) {
@@ -28,11 +37,13 @@ public class SportsSchedule {
                     table[i][j] = table[i - m][j - m];
                 }
             }
+
         }
     }
 
     public static void main(String[] args) {
-        int x = 4;
+
+        int x = 8;
         int[][] table = new int[x][x];
         int n = table.length;
         SportsSchedule schedule = new SportsSchedule();
@@ -47,5 +58,6 @@ public class SportsSchedule {
                 }
             }
         }
+
     }
 }

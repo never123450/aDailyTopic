@@ -1,5 +1,11 @@
 package two.chess;
 
+/**
+ * @description:
+ * @author: xwy
+ * @create: 6:42 PM 2020/7/8
+ **/
+
 public class ChessBoradProblem {
 
     private int[][] board;//棋盘
@@ -17,13 +23,11 @@ public class ChessBoradProblem {
     }
 
     /**
-     *
      * @param specialRow 特殊点的行下标
      * @param specialCol 特殊点的列下标
      * @param leftRow    矩阵左边起点的行下标
      * @param leftCol    矩阵左边起点的列下标
      * @param size       矩阵的宽或者高
-     *
      */
     private void ChessBoard(int specialRow, int specialCol, int leftRow, int leftCol, int size) {
         if (size == 1) {
@@ -84,7 +88,7 @@ public class ChessBoradProblem {
     public static void main(String[] args) {
         int N = 4;
         int specialRow = 0;
-        int specialCol = 1;
+        int specialCol = 0;
         ChessBoradProblem boradProblem = new ChessBoradProblem(specialRow, specialCol, N);
         boradProblem.printBoard(specialRow, specialCol, N);
     }

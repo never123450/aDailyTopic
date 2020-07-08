@@ -3,6 +3,15 @@ package two.sort;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * @description: 基数排序  （如果有负数怎么办？）
+ *
+ * @author: xwy
+ *
+ * @create: 1:59 PM 2020/7/5
+**/
+
 public class BasicSort {
     public void sort(int[] array) {
         int max = 0;
@@ -24,7 +33,7 @@ public class BasicSort {
         }
         for (int i = 0; i < times; i++) {
             for (int j = 0; j < array.length; j++) {
-                //获取对应的位饿值(i为0是个位，1是十位，2是个位)
+                //获取对应的位的值(i为0是个位，1是十位，2是个位)
                 int x = array[j] % (int) Math.pow(10, i + 1) / (int) Math.pow(10, i);
                 ArrayList q = queue.get(x);
                 q.add(array[j]);
@@ -50,5 +59,6 @@ public class BasicSort {
         for (int n : a) {
             System.out.print(" " + n);
         }
+        System.out.println();
     }
 }

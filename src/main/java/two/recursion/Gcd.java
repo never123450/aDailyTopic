@@ -1,6 +1,14 @@
 package two.recursion;
 
-//最大公约数
+/**
+ *
+ * @description: 最大公约数
+ *
+ * @author: xwy
+ *
+ * @create: 10:20 PM 2020/7/6
+**/
+
 public class Gcd {
 
     //欧几里得 定理：
