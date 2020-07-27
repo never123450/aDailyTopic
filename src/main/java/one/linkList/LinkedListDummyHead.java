@@ -1,5 +1,14 @@
 package one.linkList;
 
+/**
+ *
+ * @description: 基于LinkedList实现的栈
+ *
+ * @author: xwy
+ *
+ * @create: 4:35 PM 2020/7/15
+**/
+
 public class LinkedListDummyHead<E> {
 
     private class Node {

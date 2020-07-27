@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 
- * 
+ *
  * 基于Arraylist实现hashMap集合<br>
  * 缺点：性能特别低<br>
  */
@@ -36,7 +35,7 @@ public class ExtArraylistHashMap<Key, Value> {
 	}
 
 	public Entry<Key, Value> getEntry(Key key) {
-		// 从头查询到尾做优化### 准
+		// 从头查到尾
 		for (Entry<Key, Value> entry : tables) {
 			if (entry.key.equals(key)) {
 				return entry;

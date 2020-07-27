@@ -1,5 +1,14 @@
 package one.array;
 
+/**
+ *
+ * @description: 基于ArrayList实现的栈
+ *
+ * @author: xwy
+ *
+ * @create: 4:35 PM 2020/7/15
+**/
+
 public class ArrayStack<E> implements Stack<E> {
 
     Array<E> array;
@@ -30,6 +39,11 @@ public class ArrayStack<E> implements Stack<E> {
 
     public E peek() {
         return array.getLast();
+    }
+
+    @Override
+    public void clear() {
+
     }
 
     public int getCapacity(){

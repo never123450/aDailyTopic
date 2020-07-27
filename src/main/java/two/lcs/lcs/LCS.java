@@ -1,5 +1,14 @@
 package two.lcs.lcs;
 
+/**
+ *
+ * @description: 公共子序列
+ *
+ * @author: xwy
+ *
+ * @create: 9:06 PM 2020/7/8
+**/
+
 public class LCS {
     public int findLCS(String A, String B) {
         int n = A.length();
@@ -7,7 +16,7 @@ public class LCS {
         char[] a = A.toCharArray();
         char[] b = B.toCharArray();
         int[][] dp = new int[n][m];
-        for (int i = 0; i < n; i++) {//
+        for (int i = 0; i < n; i++) { //第一列
             if (a[i] == b[0]) {
                 dp[i][0] = 1;
                 for (int j = i + 1; j < n; j++) {
@@ -26,7 +35,7 @@ public class LCS {
         }
         System.out.println();
 
-        for (int i = 0; i < m; i++) {//
+        for (int i = 0; i < m; i++) {//第一行
             if (a[0] == b[i]) {
                 dp[0][i] = 1;
                 for (int j = i + 1; j < m; j++) {

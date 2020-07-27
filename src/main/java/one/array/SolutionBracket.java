@@ -1,11 +1,19 @@
 package one.array;
 
 //import java.util.Stack;Queue.java
+/**
+ *
+ * @description:
+ *
+ * @author: xwy
+ *
+ * @create: 4:54 PM 2020/7/15
+**/
+
 public class SolutionBracket {
     public static void main(String[] args) {
         System.out.println((new SolutionBracket()).isValid("(){}[]"));
         System.out.println((new SolutionBracket()).isValid("(){}[])"));
-
     }
 
     //    Stack<Character> stack = new Stack<Character>();

@@ -31,6 +31,11 @@ public class LinkedStack<E> implements Stack<E> {
     }
 
     @Override
+    public void clear() {
+
+    }
+
+    @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
         res.append("Stack : top ");

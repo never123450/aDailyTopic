@@ -19,7 +19,7 @@ public class ExtHashMap<K, V> implements ExtMap<K, V> {
 		if (table == null) {
 			table = new Node[DEFAULT_INITIAL_CAPACITY];
 		}
-		// 2. hashMap 扩容机制 为什么要扩容？扩容数组之后，有什么影响？ hahsmap 中是从什么时候开始扩容
+		// 2. hashMap 扩容机制 为什么要扩容？扩容数组之后，有什么影响？ hashmap 中是从什么时候开始扩容
 		// 实际存储大小=负载因子*初始容量=DEFAULT_LOAD_FACTOR0.75*DEFAULT_INITIAL_CAPACITY16=12
 		// 如果size>12的时候就需要开始扩容数组,扩容数组大小之前两倍
 		if (size >= (DEFAULT_LOAD_FACTOR * DEFAULT_INITIAL_CAPACITY)) {
@@ -80,7 +80,7 @@ public class ExtHashMap<K, V> implements ExtMap<K, V> {
 				int index = getIndex(oldK, newTable.length);
 				// 存放在之前的table 原来的node next
 				Node<K, V> oldNext = oldNode.next;
-				// 如果ndex 下标在新newTable发生相同的index时候,以链表进行存储 //
+				// 如果next 下标在新newTable发生相同的index时候,以链表进行存储 //
 				// 原来的node的下一个是最新的（原来的node存放下新的node下一个）
 				oldNode.next = newTable[index];
 				// 将之前的node赋值给 newTable[index]

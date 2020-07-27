@@ -1,5 +1,14 @@
 package one.array;
 
+/**
+ *
+ * @description: 基于数组实现的队列
+ *
+ * @author: xwy
+ *
+ * @create: 3:53 PM 2020/7/16
+**/
+
 public class ArrayQueue<E> implements Queue<E> {
 
     private Array<E> array;

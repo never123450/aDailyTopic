@@ -1,5 +1,13 @@
 package one.array;
 
+/**
+ *
+ * @description: 实现ArrayList
+ *
+ * @author: xwy
+ *
+ * @create: 11:32 AM 2020/7/12
+**/
 
 public class Array<E> {
 

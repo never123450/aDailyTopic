@@ -4,6 +4,15 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
+/**
+ *
+ * @description: 二叉搜索树
+ *
+ * @author: xwy
+ *
+ * @create: 5:03 PM 2020/7/17
+**/
+
 public class BST<E extends Comparable<E>> {
 
     private class Node {
