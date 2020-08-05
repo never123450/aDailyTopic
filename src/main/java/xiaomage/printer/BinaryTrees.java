@@ -1,10 +1,14 @@
 package xiaomage.printer;
 
 /**
- * 
- * @author MJ Lee
  *
- */
+ * @description: 
+ *
+ * @author: xwy
+ *
+ * @create: 7:14 PM 2020/8/4
+**/
+
 public final class BinaryTrees {
 
 	private BinaryTrees() {

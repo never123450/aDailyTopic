@@ -4,9 +4,18 @@ import xiaomage.printer.BinaryTreeInfo;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 
-@SuppressWarnings("unchecked")
+/**
+ *
+ * @description: 二叉树的前序遍历 中序遍历 后序遍历 （递归和非递归实现）
+ *
+ * @author: xwy
+ *
+ * @create: 3:29 PM 2020/8/5
+**/
+
 public class BinaryTree<E> implements BinaryTreeInfo {
 	protected int size;
 	protected Node<E> root;
@@ -23,7 +32,8 @@ public class BinaryTree<E> implements BinaryTreeInfo {
 		root = null;
 		size = 0;
 	}
-	
+
+	// 递归 前序遍历
 	public void preorder(Visitor<E> visitor) {
 		if (visitor == null) return;
 		preorder(root, visitor);
@@ -36,7 +46,51 @@ public class BinaryTree<E> implements BinaryTreeInfo {
 		preorder(node.left, visitor);
 		preorder(node.right, visitor);
 	}
-	
+
+	//非递归 前序遍历
+	public void preorder2(Visitor<E> visitor) {
+		if (visitor == null || root == null) return;
+		Node<E> node = root;
+		Stack<Node<E>> stack = new Stack<>();
+		while (true) {
+			if (node != null) {
+				// 访问node节点
+				if (visitor.visit(node.element)) return;
+				// 将右子节点入栈
+				if (node.right != null) {
+					stack.push(node.right);
+				}
+				// 向左走
+				node = node.left;
+			} else if (stack.isEmpty()) {
+				return;
+			} else {
+				// 处理右边
+				node = stack.pop();
+			}
+		}
+	}
+
+	//非递归 前序遍历 和层序遍历很像
+	public void preorder1(Visitor<E> visitor) {
+		if (visitor == null || root == null) return;
+		Stack<Node<E>> stack = new Stack<>();
+		stack.push(root);
+		while (!stack.isEmpty()) {
+			Node<E> node = stack.pop();
+			// 访问node节点
+			if (visitor.visit(node.element)) return;
+			if (node.right != null) {
+				stack.push(node.right);
+			}
+			if (node.left != null) {
+				stack.push(node.left);
+			}
+		}
+	}
+
+
+	// 递归 中序遍历
 	public void inorder(Visitor<E> visitor) {
 		if (visitor == null) return;
 		inorder(root, visitor);
@@ -50,7 +104,31 @@ public class BinaryTree<E> implements BinaryTreeInfo {
 		visitor.stop = visitor.visit(node.element);
 		inorder(node.right, visitor);
 	}
-	
+
+	// 非递归 中序遍历
+	public void inorder2(Visitor<E> visitor) {
+		if (visitor == null || root == null) return;
+		Node<E> node = root;
+		Stack<Node<E>> stack = new Stack<>();
+		while (true) {
+			if (node != null) {
+				stack.push(node);
+				// 向左走
+				node = node.left;
+			} else if (stack.isEmpty()) {
+				return;
+			} else {
+				node = stack.pop();
+				// 访问node节点
+				if (visitor.visit(node.element)) return;
+				// 让右节点进行中序遍历
+				node = node.right;
+			}
+		}
+	}
+
+
+	// 后序遍历 递归
 	public void postorder(Visitor<E> visitor) {
 		if (visitor == null) return;
 		postorder(root, visitor);
@@ -64,7 +142,31 @@ public class BinaryTree<E> implements BinaryTreeInfo {
 		if (visitor.stop) return;
 		visitor.stop = visitor.visit(node.element);
 	}
-	
+
+	// 后序遍历 非递归
+	public void postorder2(Visitor<E> visitor) {
+		if (visitor == null || root == null) return;
+		// 记录上一次弹出访问的节点
+		Node<E> prev = null;
+		Stack<Node<E>> stack = new Stack<>();
+		stack.push(root);
+		while (!stack.isEmpty()) {
+			Node<E> top = stack.peek();
+			if (top.isLeaf() || (prev != null && prev.parent == top)) {
+				prev = stack.pop();
+				// 访问节点
+				if (visitor.visit(prev.element)) return;
+			} else {
+				if (top.right != null) {
+					stack.push(top.right);
+				}
+				if (top.left != null) {
+					stack.push(top.left);
+				}
+			}
+		}
+	}
+
 	public void levelOrder(Visitor<E> visitor) {
 		if (root == null || visitor == null) return;
 		

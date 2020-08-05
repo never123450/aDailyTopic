@@ -2,7 +2,6 @@ package xiaomage.heap;
 
 import java.util.Comparator;
 
-@SuppressWarnings("unchecked")
 public abstract class AbstractHeap<E> implements Heap<E> {
 	protected int size;
 	protected Comparator<E> comparator;

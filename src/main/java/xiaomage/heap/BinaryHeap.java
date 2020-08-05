@@ -7,7 +7,7 @@ import java.util.Comparator;
 
 /**
  *
- * @description:  二叉堆（最大堆）
+ * @description:  二叉堆 最大堆 最小堆 根据传入的Comparator来决定
  *
  * @author: xwy
  *
