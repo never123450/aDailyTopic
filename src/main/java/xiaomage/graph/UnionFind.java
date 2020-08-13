@@ -1,19 +1,10 @@
-package xiaomage.union;
+package xiaomage.graph;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-/**
- *
- * @description: 任何类型都能使用的并查集
- *
- * @author: xwy
- *
- * @create: 8:59 AM 2020/8/13
-**/
-
-public class GenericUnionFind<V> {
+public class UnionFind<V> {
 	private Map<V, Node<V>> nodes = new HashMap<>();
 
 	public void makeSet(V v) {
