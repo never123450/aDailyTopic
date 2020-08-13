@@ -13,6 +13,7 @@ import java.util.concurrent.ConcurrentMap;
 
 public class Test {
     public static void main(String[] args) {
+
         // 返回信息：
         Map<String, Object> result = new HashMap();
         result = forTest();
