@@ -14,13 +14,14 @@ import java.util.concurrent.ConcurrentMap;
 public class Test {
     public static void main(String[] args) {
 
+        System.out.println(SystemEnum.YB.getValue());
         // 返回信息：
-        Map<String, Object> result = new HashMap();
-        result = forTest();
-        System.out.println(result);
-
-        ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
-        concurrentHashMap.size();
+//        Map<String, Object> result = new HashMap();
+//        result = forTest();
+//        System.out.println(result);
+//
+//        ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
+//        concurrentHashMap.size();
     }
 
     private static Map<String, Object> forTest() {
@@ -47,7 +48,7 @@ public class Test {
                 e.printStackTrace();
             }
         }
-        result.put("sum",sum);
+        result.put("sum", sum);
         return result;
     }
 }

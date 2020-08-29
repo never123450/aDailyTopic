@@ -2,7 +2,7 @@ package two.lcs.lcs;
 
 /**
  *
- * @description: 公共子序列
+ * @description: 最长公共子序列
  *
  * @author: xwy
  *
