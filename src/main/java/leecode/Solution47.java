@@ -35,4 +35,31 @@ public class Solution47 {
         return dp[rows - 1][cols - 1];
     }
 
+    /**
+     * 优化
+     *
+     * @param grid
+     * @return
+     */
+    public int maxValue1(int[][] grid) {
+        int rows = grid.length;
+        int cols = grid[0].length;
+        // 第 0 列
+        for (int row = 1; row < rows; row++) {
+            grid[row][0] += grid[row - 1][0];
+        }
+
+        // 第 0 行
+        for (int col = 1; col < cols; col++) {
+            grid[0][col] += grid[0][col - 1];
+        }
+
+        for (int row = 1; row < rows; row++) {
+            for (int col = 1; col < cols; col++) {
+                grid[row][col] += Math.max(grid[row - 1][col], grid[row][col - 1]);
+            }
+        }
+        return grid[rows - 1][cols - 1];
+    }
+
 }
