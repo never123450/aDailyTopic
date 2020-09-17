@@ -9,7 +9,7 @@ import java.util.Queue;
 
 public class BinarySearchTree<E> implements BinaryTreeInfo {
     private int size;
-    private Node<E> root;
+    public Node<E> root;
     private Comparator<E> comparator;
 
     public BinarySearchTree() {
@@ -451,7 +451,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         public abstract boolean visit(E element);
     }
 
-    private static class Node<E> {
+    public static class Node<E> {
         E element;
         Node<E> left;
         Node<E> right;
