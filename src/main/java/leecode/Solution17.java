@@ -59,7 +59,7 @@ public class Solution17 {
 
     public static void main(String[] args) {
         Solution17 solution17 = new Solution17();
-        List<String> res = solution17.letterCombinations1("23");
+        List<String> res = solution17.letterCombinations("23");
 
     }
 
