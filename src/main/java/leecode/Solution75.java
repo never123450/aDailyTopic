@@ -2,7 +2,7 @@ package leecode;
 
 /**
  * @description: https://leetcode-cn.com/problems/sort-colors/
- *
+ * 颜色分类
  * 练习：88 215
  * @author: xwy
  * @create: 8:38 PM 2020/2/27
@@ -56,16 +56,32 @@ public class Solution75 {
         for (int i = 0; i < two; ) {
             if (nums[i] == 1)
                 i++;
-            else if (nums[i] == 2){
+            else if (nums[i] == 2) {
                 two--;
-                swap(i,two,nums);
-            }else {// nums[i]==0
+                swap(i, two, nums);
+            } else {// nums[i]==0
                 zero++;
-                swap(zero,i,nums);
+                swap(zero, i, nums);
                 i++;
             }
         }
 
+    }
+
+    public void sortColors3(int[] nums) {
+        int i = 0;
+        int l = 0;
+        int r = nums.length - 1;
+        while (i <= r) {
+            int v = nums[i];
+            if (v == 0) {
+                swap(i++, l++, nums);
+            } else if (v == 1) {
+                i++;
+            } else {
+                swap(i, r--, nums);
+            }
+        }
     }
 
     public static void main(String[] args) {
