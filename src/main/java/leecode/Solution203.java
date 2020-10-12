@@ -11,7 +11,6 @@ package leecode;
 
 public class Solution203 {
 
-
     public ListNode removeElements(ListNode head, int val) {
         ListNode header = new ListNode(-1);
         header.next = head;
