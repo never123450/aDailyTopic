@@ -17,7 +17,6 @@ public class Solution239 {
     // poll : 删除(削)
     // offer : 添加(入队)
     public int[] maxSlidingWindow(int[] nums, int k) {
-
         if (nums == null || nums.length == 0 || k < 1) return null;
         if (k == 1) return nums;
         int[] maxes = new int[nums.length - k + 1];
@@ -35,7 +34,7 @@ public class Solution239 {
             if (w < 0) continue;
             // 检查队头的合法性
             if (deque.peekFirst() < w) {
-                // 队头不合法(不在滑动窗口索引范围内
+                // 队头不合法(不在滑动窗口索引范围内)
                 deque.pollFirst();
             }
 
@@ -44,4 +43,36 @@ public class Solution239 {
         }
         return maxes;
     }
+
+    // 暴力法
+    public int[] maxSlidingWindow1(int[] nums, int k) {
+        if (nums == null || nums.length == 0 || k < 1) return null;
+        if (k == 1) return nums;
+        int[] maxes = new int[nums.length - k + 1];
+
+        int maxIdx = 0;
+        // 求出前 k 个元素的最大值索引
+        for (int i = 0; i < k; i++) {
+            if (nums[i] > nums[maxIdx]) maxIdx = i;
+        }
+        // li 是滑动窗口的最左索引
+        for (int li = 0; li < maxes.length; li++) {
+            // ri 是滑动窗口的最右索引
+            int ri = li + k - 1;
+            if (maxIdx < li) {
+                // 最大值的索引不在滑动窗口的合理范围内
+                // 求出[li,ri]的最大值的索引
+                maxIdx = li;
+                for (int i = li + 1; i <= ri; i++) {
+                    if (nums[i] > nums[maxIdx]) maxIdx = i;
+                }
+            } else if (nums[ri] > nums[maxIdx]) {
+                // 最大值的索引在滑动窗口的合理范围内
+                maxIdx = ri;
+            }
+            maxes[li] = nums[maxIdx];
+        }
+        return maxes;
+    }
+
 }
