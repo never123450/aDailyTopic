@@ -1,5 +1,7 @@
 package leecode.linkedList;
 
+import leecode.ListNode;
+
 /**
  * @description: 移除倒数第n个节点
  * @author: xwy
@@ -7,15 +9,6 @@ package leecode.linkedList;
  **/
 
 public class Solution19 {
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
 
     /*

@@ -1,4 +1,6 @@
-package leecode;
+package leecode.linkedList;
+
+import leecode.ListNode;
 
 /**
  * @description: https://leetcode-cn.com/problems/swap-nodes-in-pairs/
@@ -10,15 +12,6 @@ package leecode;
  **/
 
 public class Solution24 {
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     // 一定要记得画图
     public ListNode swapPairs(ListNode head) {

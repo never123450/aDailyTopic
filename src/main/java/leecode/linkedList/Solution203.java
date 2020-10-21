@@ -1,4 +1,6 @@
-package leecode;
+package leecode.linkedList;
+
+import leecode.ListNode;
 
 /**
  * @description: https://leetcode-cn.com/problems/remove-linked-list-elements/
@@ -24,15 +26,6 @@ public class Solution203 {
             }
         }
         return header.next;
-    }
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
     }
 
     // 以下 方便测试

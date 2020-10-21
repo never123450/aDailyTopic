@@ -1,5 +1,7 @@
 package leecode.linkedList;
 
+import leecode.ListNode;
+
 /**
  * @description: 合并2个有序的链表
  * @author: xwy
@@ -7,14 +9,6 @@ package leecode.linkedList;
  **/
 
 public class Solution21 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     /*
      递归想不到，不会

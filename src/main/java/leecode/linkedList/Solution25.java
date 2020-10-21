@@ -1,5 +1,7 @@
 package leecode.linkedList;
 
+import leecode.ListNode;
+
 /**
  * @description: https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
  * K 个一组翻转链表
@@ -46,14 +48,7 @@ public class Solution25 {
         return pre;
     }
 
-    public class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
 
 }

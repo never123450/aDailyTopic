@@ -1,5 +1,7 @@
 package leecode.linkedList;
 
+import leecode.ListNode;
+
 /**
  * @description: 返回链表的中间节点
  * @author: xwy
@@ -7,14 +9,6 @@ package leecode.linkedList;
  **/
 
 public class Solution876 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     /*
     方法一：用数组把节点存起来，然后直接把数组中间的节点拿出来

@@ -39,15 +39,6 @@ public class Solution19 {
         return head;
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     // 以下 方便测试
     ListNode createLinkedList(int arr[], int n) {
         if (n == 0) {

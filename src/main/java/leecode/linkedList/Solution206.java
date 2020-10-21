@@ -1,5 +1,7 @@
 package leecode.linkedList;
 
+import leecode.ListNode;
+
 /**
  * @description: 反转链表
  * <p>
@@ -9,14 +11,6 @@ package leecode.linkedList;
  **/
 
 public class Solution206 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     public ListNode reverseList(ListNode head) {
         ListNode pre = null;

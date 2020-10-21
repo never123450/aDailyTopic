@@ -1,4 +1,6 @@
-package leecode;
+package leecode.linkedList;
+
+import leecode.ListNode;
 
 /**
  *
@@ -16,16 +18,6 @@ public class Solution237 {
         ListNode next = node.next;
         node.val = next.val;
         node.next = next.next;
-    }
-
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
     }
 
     // 以下 方便测试

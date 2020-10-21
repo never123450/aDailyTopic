@@ -1,4 +1,6 @@
-package leecode;
+package leecode.linkedList;
+
+import leecode.ListNode;
 
 import java.util.*;
 
@@ -18,18 +20,6 @@ import java.util.*;
  **/
 
 public class Solution23 {
-
-    /**
-     * Definition for singly-linked list.
-     */
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     // 1.暴力  时间复杂度：O(nlogn)   空间复杂度：O(n)
     public ListNode mergeKLists(ListNode[] lists) {

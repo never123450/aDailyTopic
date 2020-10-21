@@ -1,5 +1,7 @@
 package leecode.linkedList;
 
+import leecode.ListNode;
+
 import java.util.HashSet;
 
 /**
@@ -9,17 +11,6 @@ import java.util.HashSet;
  **/
 
 public class Solution141 {
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
-
 
     /*
      方法一：使用hash表 ，把节点都存入hash表中，如果存在环的话就会有重复的节点
