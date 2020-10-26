@@ -1,6 +1,6 @@
-package leecode;
+package leecode.linkedList;
 
-import one.redBlackTree.Solution;
+import leecode.ListNode;
 
 /**
  * @description: https://leetcode-cn.com/problems/palindrome-linked-list/
