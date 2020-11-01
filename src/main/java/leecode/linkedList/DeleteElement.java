@@ -1,5 +1,7 @@
-package leecode;
+package leecode.linkedList;
 
+
+import leecode.ListNode;
 
 public class DeleteElement {
 

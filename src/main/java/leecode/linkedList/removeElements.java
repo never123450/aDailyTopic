@@ -1,4 +1,6 @@
-package leecode;
+package leecode.linkedList;
+
+import leecode.ListNode;
 
 public class removeElements {
     public ListNode removeElements(ListNode head, int val) {

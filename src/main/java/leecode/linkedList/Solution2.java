@@ -1,4 +1,6 @@
-package leecode;
+package leecode.linkedList;
+
+import leecode.ListNode;
 
 /**
  * @description: https://leetcode-cn.com/problems/add-two-numbers/

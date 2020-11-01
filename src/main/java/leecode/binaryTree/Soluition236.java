@@ -1,4 +1,4 @@
-package leecode;
+package leecode.binaryTree;
 
 /**
  * @description: https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/

@@ -1,7 +1,9 @@
-package leecode;// Leetcode 804. Unique Morse Code Words
-// https://leetcode.com/problems/unique-morse-code-words/description/
+package leecode.linkedList;/// Leetcode 349. Intersection of Two Arrays
+/// https://leetcode.com/problems/intersection-of-two-arrays/description/
 
-public class LinkedListSetSolution {
+import java.util.ArrayList;
+
+class LinkedListSetSolution349 {
 
     private class LinkedList<E> {
 
@@ -222,18 +224,23 @@ public class LinkedListSetSolution {
         }
     }
 
-    public int uniqueMorseRepresentations(String[] words) {
+    public int[] intersection(int[] nums1, int[] nums2) {
 
-        String[] codes = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
-        LinkedListSet<String> set = new LinkedListSet<>();
-        for(String word: words){
-            StringBuilder res = new StringBuilder();
-            for(int i = 0 ; i < word.length() ; i ++)
-                res.append(codes[word.charAt(i) - 'a']);
+        LinkedListSet<Integer> set = new LinkedListSet<>();
+        for(int num: nums1)
+            set.add(num);
 
-            set.add(res.toString());
+        ArrayList<Integer> list = new ArrayList<>();
+        for(int num: nums2){
+            if(set.contains(num)){
+                list.add(num);
+                set.remove(num);
+            }
         }
 
-        return set.getSize();
+        int[] res = new int[list.size()];
+        for(int i = 0 ; i < list.size() ; i ++)
+            res[i] = list.get(i);
+        return res;
     }
 }
