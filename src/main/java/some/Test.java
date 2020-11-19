@@ -29,15 +29,20 @@ public class Test {
 //            System.out.println();
 //        }
 
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Date now = new Date();
-        System.out.println("现在时间："+sdf.format(now));
+//        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        Date now = new Date();
+//        System.out.println("现在时间："+sdf.format(now));
+//
+//        Date date = sdf.parse("2020-06-24 17:46:28");
+//        System.out.println("2020-06-24 17:46:28");
+//        long l = date.getTime() + 100 * 1000; // 加多少秒
+//        date = new Date(l);
+//        System.out.println(sdf.format(date ));
 
-        Date date = sdf.parse("2020-06-24 17:46:28");
-        System.out.println("2020-06-24 17:46:28");
-        long l = date.getTime() + 100 * 1000; // 加多少秒
-        date = new Date(l);
-        System.out.println(sdf.format(date ));
+
+        System.out.println(5*1024*1024);
+        System.out.println(5*1024*1024*2);
+        System.out.println(20.8*1024*1024*2);
 
 
 

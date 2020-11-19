@@ -1,4 +1,4 @@
-package leecode.string;
+package leecode.dynamicProgram;
 
 import java.util.*;
 
@@ -42,4 +42,16 @@ public class Solution140 {
         return map.get(index);
     }
 
+    public static void main(String[] args) {
+        Solution140 solution140 = new Solution140();
+        String s = "catsanddog";
+        List<String> wordDict = new ArrayList<>();
+        wordDict.add("cat");
+        wordDict.add("cats");
+        wordDict.add("and");
+        wordDict.add("sand");
+        wordDict.add("dog");
+        List<String> strings = solution140.wordBreak(s, wordDict);
+        System.out.println(strings);
+    }
 }
