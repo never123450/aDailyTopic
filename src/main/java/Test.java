@@ -14,7 +14,7 @@ import java.util.concurrent.ConcurrentMap;
 public class Test {
     public static void main(String[] args) {
 
-        System.out.println(SystemEnum.YB.getValue());
+//        System.out.println(SystemEnum.YB.getValue());
         // 返回信息：
 //        Map<String, Object> result = new HashMap();
 //        result = forTest();
@@ -22,6 +22,11 @@ public class Test {
 //
 //        ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
 //        concurrentHashMap.size();
+
+        Object o = "";
+        System.out.println(o=="");
+        System.out.println(o.equals(""));
+        System.out.println(o.toString());
     }
 
     private static Map<String, Object> forTest() {
