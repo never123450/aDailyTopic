@@ -1,6 +1,6 @@
 package leecode.binaryTree;
 
-import leecode.TreeNode;
+import leecode.noClassify.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
