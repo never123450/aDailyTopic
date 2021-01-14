@@ -1,4 +1,4 @@
-package leecode.union;
+package leecode.unionFind;
 
 /**
  * @description: https://leetcode-cn.com/problems/redundant-connection/
