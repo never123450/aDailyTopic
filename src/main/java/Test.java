@@ -1,59 +1,64 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-
 
 /**
  * @description:
  * @author: xwy
- * @create: 11:05 AM 2020/4/23
+ * @create: 下午5:09 2021/2/24
  **/
 
 
 public class Test {
-    public static void main(String[] args) {
 
-//        System.out.println(SystemEnum.YB.getValue());
-        // 返回信息：
-//        Map<String, Object> result = new HashMap();
-//        result = forTest();
-//        System.out.println(result);
-//
-//        ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
-//        concurrentHashMap.size();
-
-        Object o = "";
-        System.out.println(o=="");
-        System.out.println(o.equals(""));
-        System.out.println(o.toString());
+    static {
+        System.out.println("Test 静态代码块");
     }
 
-    private static Map<String, Object> forTest() {
-        Map<String, Object> result = new HashMap();
-        int i = 0;
-        int sum = 0;
+    {
+        System.out.println("Test 构造块");
+    }
 
-        for (; i < 10; i++) {
-            try {
-                System.out.println("处理到了第" + i + "个");
-                if (i == 5) {
-                    result.put(i + "个", i);
-                    continue;
-                }
-                if (i == 8) {
-                    result.put(i + "个", i);
-                    continue;
-                }
+    public Test() {
+        System.out.println("Test 构造方法");
+    }
 
-                sum += i;
-
-            } catch (Exception e) {
-                result.put(i + "个", i);
-                e.printStackTrace();
-            }
-        }
-        result.put("sum", sum);
-        return result;
+    public static void main(String[] args) {
+        new Sub();
     }
 }
+
+class Super {
+    static {
+        System.out.println("Super 静态代码块");
+    }
+
+    {
+        System.out.println("Super 构造块");
+    }
+
+    public Super() {
+        System.out.println("Super 构造方法");
+    }
+}
+
+class Sub extends Super {
+    static {
+        System.out.println("Sub 静态块");
+    }
+
+    public Sub() {
+        System.out.println("Sub 构造方法");
+    }
+
+    {
+        System.out.println("Sub 构造块");
+    }
+}
+
+/*
+Test 静态代码块
+Super 静态代码块
+Sub 静态块
+Super 构造块
+Super 构造方法
+Sub 构造块
+Sub 构造方法
+ */
