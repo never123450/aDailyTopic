@@ -3,6 +3,11 @@ package leecode.noClassify;
 /**
  * @description: https://leetcode-cn.com/problems/trapping-rain-water/
  * 接雨水
+ *
+ * 同
+ * 面试题 17.21. 直方图的水量
+ * https://leetcode-cn.com/problems/volume-of-histogram-lcci/
+ *
  * @author: xwy
  * @create: 19:15 2020/10/9
  **/
