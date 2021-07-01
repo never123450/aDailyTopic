@@ -1,55 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ea81ac-a072-4dab-a434-71a1f1be5af0" name="Default" comment="2021年4月26日23:02:15">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/AbstractList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/ArrayList2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/circle/CircleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/circle/SingleCircleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/single/SingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/single/SingleLinkedList2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/readme.md" afterDir="false" />
+    <list default="true" id="67ea81ac-a072-4dab-a434-71a1f1be5af0" name="Default" comment="2021年04月28日18:32:24" />
+    <list id="7e088fc7-d291-41ba-8c4f-c083dadb1a46" name="ignore1" comment="" />
+    <list id="8a405289-98a1-4f67-8ef6-b2e7d7855bd4" name="igonre" comment="igonre">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/some/xxx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leecode/linkedList/Solution206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leecode/linkedList/Solution206.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leecode/linkedList/Solution83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leecode/linkedList/Solution83.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/some/Some.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/some/Some.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/noClassify/Solution168.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leecode/noClassify/Solution168.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/noClassify/Solution42.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leecode/noClassify/Solution42.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/some/Some.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/some/Some.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTMapSolution350$BSTMap$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTMapSolution350$BSTMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTMapSolution350$Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTMapSolution350.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution$BST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution$BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution$BSTSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution$Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution349$BST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution349$BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution349$BSTSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution349$Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution349.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/DeleteElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListMapSolution350$LinkedListMap$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListMapSolution350$LinkedListMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListMapSolution350$Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListMapSolution350.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution$LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution$LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution$LinkedListSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution$Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution349$LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution349$LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution349$LinkedListSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution349$Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution349.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Solution347/Solution$Freq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Solution347/Solution$PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Solution347/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Solution349.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Solution350.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Trie208$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Trie208.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/removeElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/uniqueMorseRepresentations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lintcode/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lintcode/ReverseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/AVLTree/AVLTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/AVLTree/AVLTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/BinarySearchTree/BST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/BinarySearchTree/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/BinarySearchTree/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/UnionFind/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/UnionFind/UnionFind2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/UnionFind/UnionFind3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/array/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/array/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/array/ArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/array/SolutionBracket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/array/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/linkList/LinkedListDummyHead$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/linkList/LinkedListDummyHead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/linkList/LinkedStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/maxHeap/MaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/Graph/DnGraphTopologic$EdgeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/Graph/DnGraphTopologic$VertexNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/Graph/DnGraphTopologic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/Graph/DnjavaDijstra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/Graph/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/binaryTree/BinaryTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/binaryTree/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/binaryTree/SearchBinaryTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/binaryTree/SearchBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/chess/ChessBoradProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/dispatch/SportsSchedule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/greedy/GreedyPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/lcs/bigcount/BigCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/lcs/josephus/Josephus$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/lcs/josephus/Josephus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/lcs/lcs/LCS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/lcs/queen/Queen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/recursion/CalNFact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/recursion/Gcd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/recursion/HanNota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/recursion/Haonoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/search/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/sharewine/ShareWine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/sort/BasicSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/sort/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/two/sort/MergeSort.class" beforeDir="false" />
     </list>
-    <list id="6b7f21eb-741b-4a01-9209-6e486b65b032" name="ignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/dataStructure$Solution33.coverage" NAME="Solution33 Coverage Results" MODIFIED="1587906025475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leecode.binarySearch.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dataStructure$BubbleSort.coverage" NAME="BubbleSort Coverage Results" MODIFIED="1587519983204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>four.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/dataStructure$zzzz.coverage" NAME="zzzz Coverage Results" MODIFIED="1568951334247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>zzzzz.*</FILTER>
     </SUITE>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="dataStructure" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,211 +137,80 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>con</find>
-      <find>非</find>
-      <find>getFirst</find>
-      <find>set</find>
-      <find>merger</find>
-      <find>key</find>
-      <find>rightRotate</find>
-      <find>removeMin</find>
-      <find>反</find>
-      <find>main</find>
-      <find>broadFirstSearch</find>
-      <find>mid</find>
-      <find>���������±�</find>
-      <find>，</find>
-      <find>resize</find>
-      <find>rem</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../spring And mybatis source/spring-framework-5.0.7.RELEASE" value="PREVIEW" />
-      </map>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/never123450/aDailyTopic.git" />
+      </set>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/three/LRU/LinkedHashMapTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Merge.java" />
-        <option value="$PROJECT_DIR$/src/main/java/two/sort/InsertSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/four/ShellSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/four/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/four/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/four/DataChecker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/four/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/four/SortMissionList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/four/CountSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zuoChengYun/seven/Code_06_BestArrange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zuoChengYun/one/Code_12_SmallSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zuoChengYun/two/Code_06_BFPRT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zuoChengYun/three/Code_09_FindNumInSortedMatrix.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zuoChengYun/four/Code_01_PreInPosTraversal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zuoChengYun/five/Code_01_HashMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zuoChengYun/six/Code_05_Prim.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zuoChengYun/eight/Code_08_Money_Problem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zuoChengYun/seven/Code_01_TrieTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zuoChengYun/seven/Code_05_LowestLexicography.java" />
-        <option value="$PROJECT_DIR$/src/main/java/four/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/four/InsertSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hashMap/HashMap_put.java" />
-        <option value="$PROJECT_DIR$/src/main/java/one/array/SolutionBracket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/one/array/LoopQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/one/linkList/LinkedListDummyHead.java" />
-        <option value="$PROJECT_DIR$/src/main/java/one/recursion/removeElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/one/recursion/removeElement203.java" />
-        <option value="$PROJECT_DIR$/src/main/java/some/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/one/BinarySearchTree/BST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/one/linkList/ExtLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/one/maxHeap/MaxHeap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution347/Splotion347.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/WordDictionary211.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zzzzz/zzzz.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interview/notes" />
-        <option value="$PROJECT_DIR$/src/main/java/interview/nodes2" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution283.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution75.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution167.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution209.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution9.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution349.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution350.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution454.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution447.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution219.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution220.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Solution206.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../javaSoft/apache-maven-3.5.2/conf/settings.xml" />
+      </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="644" />
-    <option name="y" value="23" />
-    <option name="width" value="1015" />
-    <option name="height" value="790" />
-  </component>
-  <component name="ProjectId" id="1rL5BQKWC7MYAXO51g4RbIdAJwn" />
+  <component name="ProjectId" id="1hGDVpe1c5R8nbZyTDQQgBiIYMN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
-      <showMembers ProjectPane="true" />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data Structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="387&#9;PSI&#9;JAVA://lintcode.Solution387&#10;trie&#9;PSI&#9;JAVA://one.Trie.Trie&#10;segme&#9;PSI&#9;JAVA://one.SegmentTree.SegmentTree&#10;linkedListset&#9;PSI&#9;JAVA://one.BinarySearchTree.LinkedListSet&#10;link&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/one/linkList/LinkedList.java&#10;remo&#9;PSI&#9;JAVA://one.recursion.removeElement&#10;bubb&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/four/BubbleSort.java&#10;bubble&#9;PSI&#9;JAVA://four.BubbleSort&#10;merge&#9;PSI&#9;JAVA://leecode.Merge&#10;me&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/two/sort/MergeSort.java&#10;ins&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/two/sort/InsertSort.java&#10;inser&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/two/sort/InsertSort.java&#10;sele&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/two/sort/SelertSort.java" />
+    <property name="SearchEverywhereHistoryKey" value="lcs&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/two/lcs/lcs/LCS.java&#10;Times&#9;PSI&#9;JAVA://xiaomage.sort.tools.Times&#10;WeightManager&#9;PSI&#9;JAVA://xiaomage.graph.Graph.WeightManager&#10;union&#9;PSI&#9;JAVA://lintcode.Solution547.UnionFind1&#10;Student&#9;PSI&#9;JAVA://xiaomage.sort.Student&#10;Asserts&#9;PSI&#9;JAVA://xiaomage.sort.tools.Asserts&#10;buck&#9;PSI&#9;JAVA://zuoChengYun.one.Code_06_BucketSort#bucketSort&#10;BinaryTree&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/xiaomage/printer/BinaryTrees.java&#10;trie&#9;PSI&#9;JAVA://one.Trie.Trie&#10;226&#9;PSI&#9;JAVA://leecode.Solution226&#10;cir&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/one/queue/CircleQueue.java&#10;rever&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/lintcode/ReverseLinkedList.java&#10;BinaryTreeInfo&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/one/printer/BinaryTreeInfo.java&#10;bst&#9;PSI&#9;JAVA://one.AVLTree.BST&#10;que&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/one/array/Queue.java&#10;queue&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/one/array/Queue.java&#10;20&#9;PSI&#9;JAVA://leecode.stack.Solution20&#10;bracket&#9;PSI&#9;JAVA://one.array.SolutionBracket&#10;stack&#9;PSI&#9;JAVA://one.array.Stack&#10;jo&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/two/lcs/josephus/Josephus.java&#10;reve&#9;PSI&#9;JAVA://lintcode.ReverseLinkedList&#10;Arrayl&#9;PSI&#9;JAVA://hashMap.ExtArraylistHashMap&#10;fi&#9;PSI&#9;JAVA://leecode.dynamicProgram.Fibonacci&#10;bigc&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/two/lcs/bigcount/BigCount.java&#10;big&#9;PSI&#9;JAVA://two.lcs.bigcount.BigCount&#10;jose&#9;PSI&#9;JAVA://two.lcs.josephus.Josephus&#10;gre&#9;PSI&#9;JAVA://two.greedy.GreedyPackage&#10;sha&#9;PSI&#9;JAVA://two.sharewine.ShareWine&#10;gcd&#9;PSI&#9;JAVA://two.recursion.Gcd&#10;han&#9;PSI&#9;JAVA://two.recursion.HanNota&#10;heaps&#9;PSI&#9;JAVA://two.sort.HeapSort&#10;linkedH&#9;PSI&#9;JAVA://three.LRU.LinkedHashMapTest&#10;binaryTr&#9;PSI&#9;JAVA://two.binaryTree.BinaryTree&#10;bfs&#9;PSI&#9;JAVA://zuoChengYun.six.Code_01_BFS&#10;heap&#9;PSI&#9;JAVA://one.maxHeap.MaxHeap&#10;*redTree&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/one/redBlackTree&#10;solution24&#9;PSI&#9;JAVA://leecode.Solution24&#10;Bin&#9;PSI&#9;JAVA://two.search.BinarySearch&#10;me&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/four/MergeSort.java&#10;sele&#9;PSI&#9;JAVA://four.SelectionSort&#10;ins&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/four/InsertSort.java&#10;bubb&#9;PSI&#9;JAVA://four.BubbleSort&#10;merge&#9;PSI&#9;JAVA://four.MergeSort&#10;*merge&#9;PSI&#9;JAVA://two.sort.MergeSort&#10;level&#9;PSI&#9;JAVA://leecode.BSTSetSolution.BST#levelOrder&#10;387&#9;PSI&#9;JAVA://lintcode.Solution387&#10;segme&#9;PSI&#9;JAVA://one.SegmentTree.SegmentTree&#10;linkedListset&#9;PSI&#9;JAVA://one.BinarySearchTree.LinkedListSet&#10;link&#9;FILE&#9;file:///Users/xuwenyan/Downloads/study/data Structure/src/main/java/one/linkList/LinkedList.java&#10;remo&#9;PSI&#9;JAVA://one.recursion.removeElement" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/xiaomage/list" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\study\code\aDailyTopic\src\main\java\xiaomage\list" />
-      <recent name="$PROJECT_DIR$/src/main/java/five" />
-      <recent name="$PROJECT_DIR$/src/main/java/zuoChengYun/eight" />
-      <recent name="$PROJECT_DIR$/src/main/java/zuoChengYun/six" />
-      <recent name="$PROJECT_DIR$/src/main/java/zuoChengYun/five" />
+      <recent name="$PROJECT_DIR$/src/main/java/xiaomage/skip" />
+      <recent name="$PROJECT_DIR$/src/main/java/xiaomage/BloomFilter" />
+      <recent name="$PROJECT_DIR$/src/main/java/xiaomage/dynamicPlanning" />
+      <recent name="$PROJECT_DIR$/src/main/java/xiaomage/greed" />
+      <recent name="$PROJECT_DIR$/src/main/java/xiaomage/queue" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="linkList" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Trie" />
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="linkList" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Solution633">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xiaomage.list.Main" />
+    <configuration name="Solution220" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.array.Solution220" />
       <module name="data Structure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xiaomage.list.*" />
+          <option name="PATTERN" value="leecode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,13 +218,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.Solution1001" />
+    <configuration name="Solution28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.string.Solution28" />
       <module name="data Structure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leecode.*" />
+          <option name="PATTERN" value="leecode.dynamicProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,13 +232,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution168" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.noClassify.Solution168" />
+    <configuration name="Solution633" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.mathematics.Solution633" />
       <module name="data Structure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leecode.noClassify.*" />
+          <option name="PATTERN" value="leecode.mathematics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,27 +246,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution83" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.linkedList.Solution83" />
+    <configuration name="Solution91" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.dynamicProgram.Solution91" />
       <module name="data Structure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leecode.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Some" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="some.Some" />
-      <module name="data Structure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="some.*" />
+          <option name="PATTERN" value="leecode.dynamicProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,13 +266,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="xxx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="some.xxx" />
+      <module name="data Structure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="some.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -371,30 +306,30 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Some" />
-      <item itemvalue="Application.Solution1001" />
-      <item itemvalue="Application.Solution168" />
-      <item itemvalue="Application.Solution83" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.xxx" />
+      <item itemvalue="Application.Solution220" />
+      <item itemvalue="Application.Solution28" />
+      <item itemvalue="Application.Solution91" />
+      <item itemvalue="Application.Solution633" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Solution83" />
-        <item itemvalue="Application.Some" />
-        <item itemvalue="Application.Solution168" />
-        <item itemvalue="Application.Solution1001" />
+        <item itemvalue="Application.Solution633" />
+        <item itemvalue="Application.xxx" />
+        <item itemvalue="Application.Solution91" />
+        <item itemvalue="Application.Solution28" />
+        <item itemvalue="Application.Solution220" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="67ea81ac-a072-4dab-a434-71a1f1be5af0" name="Default" comment="" />
-      <changelist id="6b7f21eb-741b-4a01-9209-6e486b65b032" name="ignore" comment="" />
+      <changelist id="8a405289-98a1-4f67-8ef6-b2e7d7855bd4" name="igonre" comment="" />
+      <changelist id="7e088fc7-d291-41ba-8c4f-c083dadb1a46" name="ignore1" comment="" />
       <created>1552570071900</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -515,12 +450,266 @@
       <workItem from="1582791568091" duration="17961000" />
       <workItem from="1583131042489" duration="14852000" />
       <workItem from="1583304729759" duration="8913000" />
-      <workItem from="1583370665473" duration="2272000" />
-      <workItem from="1618742400553" duration="2389000" />
-      <workItem from="1619443155242" duration="3593000" />
-      <workItem from="1625057055380" duration="4124000" />
-      <workItem from="1626002238983" duration="14470000" />
-      <workItem from="1626269452307" duration="1817000" />
+      <workItem from="1583370665473" duration="10128000" />
+      <workItem from="1583580118726" duration="12744000" />
+      <workItem from="1583756214079" duration="31929000" />
+      <workItem from="1584328389658" duration="20927000" />
+      <workItem from="1584663255525" duration="2787000" />
+      <workItem from="1584969235410" duration="614000" />
+      <workItem from="1585013947279" duration="16719000" />
+      <workItem from="1585626720492" duration="214000" />
+      <workItem from="1585655202183" duration="1574000" />
+      <workItem from="1586246017619" duration="499000" />
+      <workItem from="1586305043397" duration="4805000" />
+      <workItem from="1586416447588" duration="4988000" />
+      <workItem from="1586582889262" duration="865000" />
+      <workItem from="1586869246046" duration="2547000" />
+      <workItem from="1587256774664" duration="364000" />
+      <workItem from="1587343061182" duration="436000" />
+      <workItem from="1587519436836" duration="4898000" />
+      <workItem from="1587610344730" duration="8892000" />
+      <workItem from="1587871264152" duration="454000" />
+      <workItem from="1587903235768" duration="4246000" />
+      <workItem from="1587994156969" duration="3589000" />
+      <workItem from="1588069453226" duration="8103000" />
+      <workItem from="1588340148936" duration="4000" />
+      <workItem from="1588731371454" duration="4888000" />
+      <workItem from="1588815772930" duration="4157000" />
+      <workItem from="1588991335036" duration="1372000" />
+      <workItem from="1589246670260" duration="1904000" />
+      <workItem from="1589383166623" duration="254000" />
+      <workItem from="1589450430283" duration="169000" />
+      <workItem from="1589870521264" duration="489000" />
+      <workItem from="1590046153042" duration="829000" />
+      <workItem from="1590194508963" duration="968000" />
+      <workItem from="1590301558056" duration="764000" />
+      <workItem from="1590648564936" duration="1641000" />
+      <workItem from="1591322886925" duration="8726000" />
+      <workItem from="1591348494942" duration="2036000" />
+      <workItem from="1591798968160" duration="173000" />
+      <workItem from="1591979864697" duration="436000" />
+      <workItem from="1592107856446" duration="5200000" />
+      <workItem from="1592222896231" duration="1800000" />
+      <workItem from="1592290493581" duration="13000" />
+      <workItem from="1592317954270" duration="1612000" />
+      <workItem from="1592476792874" duration="403000" />
+      <workItem from="1592661781450" duration="7580000" />
+      <workItem from="1592991951347" duration="1809000" />
+      <workItem from="1593067251430" duration="2636000" />
+      <workItem from="1593308647419" duration="2069000" />
+      <workItem from="1593326798148" duration="493000" />
+      <workItem from="1593349394245" duration="6000" />
+      <workItem from="1593776267131" duration="1011000" />
+      <workItem from="1593916075473" duration="5158000" />
+      <workItem from="1594038684544" duration="4005000" />
+      <workItem from="1594122739288" duration="16813000" />
+      <workItem from="1594258685334" duration="58000" />
+      <workItem from="1594275493808" duration="269000" />
+      <workItem from="1594304039095" duration="1307000" />
+      <workItem from="1594423259284" duration="13925000" />
+      <workItem from="1594620338296" duration="35000" />
+      <workItem from="1594630417711" duration="3804000" />
+      <workItem from="1594712780064" duration="295000" />
+      <workItem from="1594715393781" duration="7001000" />
+      <workItem from="1594777877981" duration="69000" />
+      <workItem from="1594801676984" duration="13775000" />
+      <workItem from="1594905434656" duration="1296000" />
+      <workItem from="1594941588673" duration="145000" />
+      <workItem from="1594951531813" duration="19638000" />
+      <workItem from="1595310268358" duration="20488000" />
+      <workItem from="1595468157196" duration="17926000" />
+      <workItem from="1595576371269" duration="1728000" />
+      <workItem from="1595676884850" duration="198000" />
+      <workItem from="1595723185753" duration="3000" />
+      <workItem from="1595763730702" duration="1134000" />
+      <workItem from="1595831147687" duration="10380000" />
+      <workItem from="1595914926378" duration="3352000" />
+      <workItem from="1595922900133" duration="10402000" />
+      <workItem from="1595999777574" duration="7687000" />
+      <workItem from="1596033001498" duration="11841000" />
+      <workItem from="1596149857027" duration="1913000" />
+      <workItem from="1596175342730" duration="7346000" />
+      <workItem from="1596250551532" duration="3540000" />
+      <workItem from="1596333465653" duration="4926000" />
+      <workItem from="1596454634565" duration="1103000" />
+      <workItem from="1596508411120" duration="6117000" />
+      <workItem from="1596593105646" duration="7495000" />
+      <workItem from="1596665510070" duration="2280000" />
+      <workItem from="1596709654812" duration="2094000" />
+      <workItem from="1596844160025" duration="3407000" />
+      <workItem from="1596937594908" duration="2794000" />
+      <workItem from="1597019571275" duration="4637000" />
+      <workItem from="1597107379210" duration="1942000" />
+      <workItem from="1597191486121" duration="1249000" />
+      <workItem from="1597277531125" duration="4233000" />
+      <workItem from="1597357358186" duration="3757000" />
+      <workItem from="1597454739746" duration="4655000" />
+      <workItem from="1597540528290" duration="748000" />
+      <workItem from="1597548750073" duration="1432000" />
+      <workItem from="1597623286769" duration="4580000" />
+      <workItem from="1597729871460" duration="426000" />
+      <workItem from="1597756328186" duration="490000" />
+      <workItem from="1597804586431" duration="2036000" />
+      <workItem from="1597883451298" duration="1928000" />
+      <workItem from="1597916023083" duration="2943000" />
+      <workItem from="1597999630145" duration="3550000" />
+      <workItem from="1598072129364" duration="10086000" />
+      <workItem from="1598156124432" duration="371000" />
+      <workItem from="1598175708158" duration="4096000" />
+      <workItem from="1598261584353" duration="887000" />
+      <workItem from="1598318823842" duration="21073000" />
+      <workItem from="1598404986404" duration="19775000" />
+      <workItem from="1598491558722" duration="220000" />
+      <workItem from="1598578090171" duration="4364000" />
+      <workItem from="1598658136595" duration="3542000" />
+      <workItem from="1598750347865" duration="1300000" />
+      <workItem from="1598850592007" duration="1000" />
+      <workItem from="1598865115006" duration="1583000" />
+      <workItem from="1598927280308" duration="3077000" />
+      <workItem from="1598958248936" duration="4847000" />
+      <workItem from="1598968077038" duration="1192000" />
+      <workItem from="1599034720095" duration="1472000" />
+      <workItem from="1599050847200" duration="2388000" />
+      <workItem from="1599113830715" duration="44000" />
+      <workItem from="1599355011173" duration="1369000" />
+      <workItem from="1599447552368" duration="50000" />
+      <workItem from="1599462401717" duration="9614000" />
+      <workItem from="1599533864116" duration="8991000" />
+      <workItem from="1599572654367" duration="2840000" />
+      <workItem from="1599619698997" duration="324000" />
+      <workItem from="1599628572734" duration="16000" />
+      <workItem from="1599628599336" duration="73000" />
+      <workItem from="1599628814247" duration="91000" />
+      <workItem from="1599628965798" duration="939000" />
+      <workItem from="1599629953352" duration="111000" />
+      <workItem from="1599630123151" duration="94000" />
+      <workItem from="1599630320597" duration="948000" />
+      <workItem from="1599631337941" duration="3237000" />
+      <workItem from="1599706498339" duration="6000" />
+      <workItem from="1599723353958" duration="6455000" />
+      <workItem from="1599789028670" duration="12519000" />
+      <workItem from="1599973937249" duration="13205000" />
+      <workItem from="1600049306718" duration="1750000" />
+      <workItem from="1600052920805" duration="2358000" />
+      <workItem from="1600093278815" duration="293000" />
+      <workItem from="1600093579396" duration="18000" />
+      <workItem from="1600093639415" duration="1303000" />
+      <workItem from="1600122658401" duration="8970000" />
+      <workItem from="1600221227242" duration="14991000" />
+      <workItem from="1600306546494" duration="3519000" />
+      <workItem from="1600310614296" duration="7661000" />
+      <workItem from="1600337561137" duration="7852000" />
+      <workItem from="1600393621876" duration="2626000" />
+      <workItem from="1600559774382" duration="10600000" />
+      <workItem from="1600656652781" duration="343000" />
+      <workItem from="1600674070424" duration="5000" />
+      <workItem from="1600842735817" duration="11711000" />
+      <workItem from="1600911202122" duration="9573000" />
+      <workItem from="1600998644234" duration="3761000" />
+      <workItem from="1601170383655" duration="148000" />
+      <workItem from="1601206765266" duration="394000" />
+      <workItem from="1601339686158" duration="2389000" />
+      <workItem from="1601342553610" duration="5627000" />
+      <workItem from="1601362717376" duration="5036000" />
+      <workItem from="1601686983182" duration="7333000" />
+      <workItem from="1601712675031" duration="7120000" />
+      <workItem from="1602241190226" duration="2913000" />
+      <workItem from="1602321982686" duration="528000" />
+      <workItem from="1602375462228" duration="15279000" />
+      <workItem from="1602469262329" duration="8691000" />
+      <workItem from="1602491287375" duration="10513000" />
+      <workItem from="1602554190265" duration="45000" />
+      <workItem from="1602581861686" duration="350000" />
+      <workItem from="1602582292994" duration="9113000" />
+      <workItem from="1602654594641" duration="1014000" />
+      <workItem from="1602668783944" duration="43000" />
+      <workItem from="1602678917392" duration="6216000" />
+      <workItem from="1602724610612" duration="3342000" />
+      <workItem from="1602754759073" duration="6472000" />
+      <workItem from="1602831140992" duration="542000" />
+      <workItem from="1603020865741" duration="4902000" />
+      <workItem from="1603113092754" duration="2236000" />
+      <workItem from="1603192991237" duration="7644000" />
+      <workItem from="1603342858196" duration="7027000" />
+      <workItem from="1603356418430" duration="2502000" />
+      <workItem from="1603429406590" duration="8008000" />
+      <workItem from="1603534036159" duration="1304000" />
+      <workItem from="1603675940444" duration="120000" />
+      <workItem from="1603716828022" duration="1694000" />
+      <workItem from="1604055023034" duration="4183000" />
+      <workItem from="1604152715706" duration="1163000" />
+      <workItem from="1604189851644" duration="8341000" />
+      <workItem from="1604321962024" duration="2893000" />
+      <workItem from="1605091162458" duration="1733000" />
+      <workItem from="1605258224115" duration="391000" />
+      <workItem from="1605261405820" duration="617000" />
+      <workItem from="1605774752510" duration="7599000" />
+      <workItem from="1605858228825" duration="3627000" />
+      <workItem from="1606294319641" duration="1282000" />
+      <workItem from="1606650043700" duration="1511000" />
+      <workItem from="1607829612097" duration="2089000" />
+      <workItem from="1607858000376" duration="2630000" />
+      <workItem from="1607953208749" duration="1430000" />
+      <workItem from="1608036561205" duration="1613000" />
+      <workItem from="1608119243273" duration="1100000" />
+      <workItem from="1608294091171" duration="797000" />
+      <workItem from="1608336879908" duration="838000" />
+      <workItem from="1608375504380" duration="5219000" />
+      <workItem from="1608430635276" duration="1479000" />
+      <workItem from="1608958549233" duration="2575000" />
+      <workItem from="1609073970639" duration="5000" />
+      <workItem from="1609316110226" duration="44000" />
+      <workItem from="1610093356087" duration="3255000" />
+      <workItem from="1610328160566" duration="34000" />
+      <workItem from="1610361836328" duration="786000" />
+      <workItem from="1610443576621" duration="1765000" />
+      <workItem from="1610523888181" duration="6051000" />
+      <workItem from="1610604594301" duration="9953000" />
+      <workItem from="1610616029613" duration="1037000" />
+      <workItem from="1610694518703" duration="3620000" />
+      <workItem from="1611300494378" duration="64000" />
+      <workItem from="1611581365713" duration="1865000" />
+      <workItem from="1611706475002" duration="8066000" />
+      <workItem from="1612172067802" duration="1792000" />
+      <workItem from="1612277123897" duration="1944000" />
+      <workItem from="1612314088676" duration="1457000" />
+      <workItem from="1612331233871" duration="848000" />
+      <workItem from="1612401831877" duration="675000" />
+      <workItem from="1612485755711" duration="6673000" />
+      <workItem from="1612623170626" duration="10339000" />
+      <workItem from="1612775778512" duration="10822000" />
+      <workItem from="1613528491524" duration="1059000" />
+      <workItem from="1613611513234" duration="9900000" />
+      <workItem from="1613655233645" duration="398000" />
+      <workItem from="1613703118380" duration="2894000" />
+      <workItem from="1613785048198" duration="2196000" />
+      <workItem from="1613789234170" duration="6653000" />
+      <workItem from="1614153486755" duration="11429000" />
+      <workItem from="1614247978920" duration="8137000" />
+      <workItem from="1614561713759" duration="1464000" />
+      <workItem from="1614820213284" duration="5489000" />
+      <workItem from="1614844534847" duration="48000" />
+      <workItem from="1615255868417" duration="617000" />
+      <workItem from="1615875917915" duration="4215000" />
+      <workItem from="1615883862104" duration="1329000" />
+      <workItem from="1615944488524" duration="828000" />
+      <workItem from="1615966252995" duration="3507000" />
+      <workItem from="1616033500799" duration="3964000" />
+      <workItem from="1616750941756" duration="458000" />
+      <workItem from="1617271009572" duration="4967000" />
+      <workItem from="1617346711871" duration="4560000" />
+      <workItem from="1617689782289" duration="9722000" />
+      <workItem from="1617773778291" duration="1953000" />
+      <workItem from="1617844634161" duration="1997000" />
+      <workItem from="1618214193963" duration="5230000" />
+      <workItem from="1618493730999" duration="1948000" />
+      <workItem from="1618551595936" duration="10416000" />
+      <workItem from="1618621928673" duration="7000" />
+      <workItem from="1618645567354" duration="1319000" />
+      <workItem from="1618798244044" duration="6755000" />
+      <workItem from="1618901259303" duration="7274000" />
+      <workItem from="1618983286275" duration="2187000" />
+      <workItem from="1619596880366" duration="4296000" />
     </task>
     <task id="LOCAL-00001" summary="一次性提交">
       <created>1577972267618</created>
@@ -529,93 +718,336 @@
       <option name="project" value="LOCAL" />
       <updated>1577972267618</updated>
     </task>
-    <task id="LOCAL-00002" summary="2021年4月26日23:02:15">
-      <created>1619449347142</created>
+    <task id="LOCAL-00002" summary="一次性提交">
+      <created>1583374503849</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1619449347142</updated>
+      <updated>1583374503849</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="一次性提交">
+      <created>1583995840107</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583995840107</updated>
+    </task>
+    <task id="LOCAL-00004" summary="最短路径   图   深度遍历   广度遍历">
+      <created>1592734307556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592734307556</updated>
+    </task>
+    <task id="LOCAL-00005" summary="一次性提交">
+      <created>1594207082039</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594207082039</updated>
+    </task>
+    <task id="LOCAL-00006" summary="一次性提交">
+      <created>1595831768562</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595831768562</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hashMap hashSet LinkedHashMap  heap">
+      <created>1596265018291</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596265018291</updated>
+    </task>
+    <task id="LOCAL-00008" summary="二叉树的非递归遍历">
+      <created>1596613154049</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596613154049</updated>
+    </task>
+    <task id="LOCAL-00009" summary="各种排序   并查集">
+      <created>1597280337356</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597280337357</updated>
+    </task>
+    <task id="LOCAL-00010" summary="图 graph">
+      <created>1597359402186</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597359402186</updated>
+    </task>
+    <task id="LOCAL-00011" summary="布隆过滤器,最长公共子序列,n 皇后问题,动态规划">
+      <created>1598669885178</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598669885178</updated>
+    </task>
+    <task id="LOCAL-00012" summary="一次性提交">
+      <created>1599447580897</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599447580897</updated>
+    </task>
+    <task id="LOCAL-00013" summary="动态规划">
+      <created>1599629990569</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599629990569</updated>
+    </task>
+    <task id="LOCAL-00014" summary="动态规划 LeetCode">
+      <created>1600000778839</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600000778839</updated>
+    </task>
+    <task id="LOCAL-00015" summary="二叉树">
+      <created>1600095138302</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600095138302</updated>
+    </task>
+    <task id="LOCAL-00016" summary="二叉树,BST 树, DFS">
+      <created>1600339077793</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600339077793</updated>
+    </task>
+    <task id="LOCAL-00017" summary="排列组合   深度优先遍历">
+      <created>1600849251778</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600849251778</updated>
+    </task>
+    <task id="LOCAL-00018" summary="整数反转  三数之和  组合总和 pow  螺旋矩阵  约瑟夫问题  LRU">
+      <created>1601695749435</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601695749435</updated>
+    </task>
+    <task id="LOCAL-00019" summary="国庆期间的算法">
+      <created>1602407372401</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602407372401</updated>
+    </task>
+    <task id="LOCAL-00020" summary="2020年10月11日20:53:35">
+      <created>1602420822155</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1602420822155</updated>
+    </task>
+    <task id="LOCAL-00021" summary="2020年10月12日22:48:06">
+      <created>1602514123786</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1602514123786</updated>
+    </task>
+    <task id="LOCAL-00022" summary="2020年10月13日22:59:11">
+      <created>1602601157023</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1602601157023</updated>
+    </task>
+    <task id="LOCAL-00023" summary="2020年10月12日22:48:06">
+      <created>1602764863351</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602764863351</updated>
+    </task>
+    <task id="LOCAL-00024" summary="2020年10月21日09:16:39">
+      <created>1603243020269</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1603243020270</updated>
+    </task>
+    <task id="LOCAL-00025" summary="2020年10月26日22:37:17">
+      <created>1603723052045</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603723052045</updated>
+    </task>
+    <task id="LOCAL-00026" summary="2020年11月01日11:47:24">
+      <created>1604202471423</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1604202471423</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2020年11月19日19:16:05">
+      <created>1605784572557</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1605784572557</updated>
+    </task>
+    <task id="LOCAL-00028" summary="2020年11月20日17:18:12">
+      <created>1605863900614</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1605863900614</updated>
+    </task>
+    <task id="LOCAL-00029" summary="2020年12月13日20:52:56">
+      <created>1607863985933</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1607863985933</updated>
+    </task>
+    <task id="LOCAL-00030" summary="2020年12月20日10:56:11">
+      <created>1608432979749</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1608432979749</updated>
+    </task>
+    <task id="LOCAL-00031" summary="2021年01月08日16:20:43">
+      <created>1610094060681</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1610094060681</updated>
+    </task>
+    <task id="LOCAL-00032" summary="2021年01月08日16:20:43">
+      <created>1610094469448</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1610094469448</updated>
+    </task>
+    <task id="LOCAL-00033" summary="2021年01月13日17:43:28">
+      <created>1610531015644</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1610531015645</updated>
+    </task>
+    <task id="LOCAL-00034" summary="2021年01月14日15:46:20">
+      <created>1610610396042</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1610610396042</updated>
+    </task>
+    <task id="LOCAL-00035" summary="2021年01月14日16:56:07">
+      <created>1610614573910</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610614573911</updated>
+    </task>
+    <task id="LOCAL-00036" summary="2021年01月27日10:19:02">
+      <created>1611713950782</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1611713950782</updated>
+    </task>
+    <task id="LOCAL-00037" summary="2021年01月29日22:06:42">
+      <created>1611929209957</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1611929209957</updated>
+    </task>
+    <task id="LOCAL-00038" summary="2021年03月16日16:14:33">
+      <created>1615882482935</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1615882482935</updated>
+    </task>
+    <task id="LOCAL-00039" summary="2021年03月17日17:53:20">
+      <created>1615974805683</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1615974805683</updated>
+    </task>
+    <task id="LOCAL-00040" summary="2021年03月26日17:37:26">
+      <created>1616751451308</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1616751451308</updated>
+    </task>
+    <task id="LOCAL-00041" summary="2021年04月01日19:48:38">
+      <created>1617277725513</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1617277725513</updated>
+    </task>
+    <task id="LOCAL-00042" summary="2021年04月16日16:25:15">
+      <created>1618561522543</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1618561522543</updated>
+    </task>
+    <task id="LOCAL-00043" summary="2021年04月19日18:01:00">
+      <created>1618826468362</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1618826468362</updated>
+    </task>
+    <task id="LOCAL-00044" summary="2021年04月20日16:58:25  字符串单模型匹配">
+      <created>1618909137658</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1618909137658</updated>
+    </task>
+    <task id="LOCAL-00045" summary="2021年04月21日14:10:06 &#10;91. 解码方法">
+      <created>1618985432365</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1618985432365</updated>
+    </task>
+    <task id="LOCAL-00046" summary="2021年04月28日18:32:24">
+      <created>1619605963466</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1619605963467</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="483067000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="644" y="23" width="1015" height="790" extended-state="0" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655826" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37841725" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18428184" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30215827" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25385407" sideWeight="0.49335548" order="0" side_tool="false" content_ui="combo" x="801" y="158" width="217" height="562" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327852" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24952015" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24871531" sideWeight="0.49137932" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2" sideWeight="0.50664455" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32805756" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24929444" sideWeight="0.5086207" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18428184" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327852" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24952015" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24871531" sideWeight="0.49137932" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32805756" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655826" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37841725" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30215827" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24929444" sideWeight="0.5086207" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25385407" sideWeight="0.49335548" order="0" side_tool="false" content_ui="combo" x="801" y="158" width="217" height="562" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2" sideWeight="0.50664455" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -630,9 +1062,113 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="一次性提交" />
-    <MESSAGE value="2021年4月26日23:02:15" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021年4月26日23:02:15" />
+    <MESSAGE value="2020年10月11日20:53:35" />
+    <MESSAGE value="2020年10月13日22:59:11" />
+    <MESSAGE value="2020年10月12日22:48:06" />
+    <MESSAGE value="2020年10月21日09:16:39" />
+    <MESSAGE value="2020年10月26日22:37:17" />
+    <MESSAGE value="2020年11月01日11:47:24" />
+    <MESSAGE value="2020年11月19日19:16:05" />
+    <MESSAGE value="2020年11月20日17:18:12" />
+    <MESSAGE value="2020年12月13日20:52:56" />
+    <MESSAGE value="2020年12月20日10:56:11" />
+    <MESSAGE value="2021年01月08日16:20:43" />
+    <MESSAGE value="2021年01月13日17:43:28" />
+    <MESSAGE value="2021年01月14日15:46:20" />
+    <MESSAGE value="2021年01月14日16:56:07" />
+    <MESSAGE value="2021年01月27日10:19:02" />
+    <MESSAGE value="2021年01月29日22:06:42" />
+    <MESSAGE value="2021年03月16日16:14:33" />
+    <MESSAGE value="2021年03月17日17:53:20" />
+    <MESSAGE value="2021年03月26日17:37:26" />
+    <MESSAGE value="2021年04月01日19:48:38" />
+    <MESSAGE value="2021年04月16日16:25:15" />
+    <MESSAGE value="2021年04月19日18:01:00" />
+    <MESSAGE value="2021年04月20日16:58:25  字符串单模型匹配" />
+    <MESSAGE value="2021年04月21日14:10:06 &#10;91. 解码方法" />
+    <MESSAGE value="2021年04月28日18:32:24" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021年04月28日18:32:24" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="416" y="25" key="#Project_Structure" timestamp="1617346841708">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state x="416" y="25" key="#Project_Structure/0.25.1440.825@0.25.1440.825" timestamp="1617346841708" />
+    <state x="966" y="277" key="#xdebugger.evaluate" timestamp="1612490659348">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="966" y="277" key="#xdebugger.evaluate/0.23.1440.833@0.23.1440.833" timestamp="1612490659348" />
+    <state x="397" y="25" width="846" height="833" key="CommitChangelistDialog2" timestamp="1619605962799">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state x="397" y="23" width="846" height="833" key="CommitChangelistDialog2/0.23.1440.833@0.23.1440.833" timestamp="1613616600017" />
+    <state x="397" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1619605962799" />
+    <state width="470" height="434" key="DebuggerActiveHint" timestamp="1614249002367">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="470" height="438" key="DebuggerActiveHint/0.23.1440.833@0.23.1440.833" timestamp="1611712222462" />
+    <state width="470" height="434" key="DebuggerActiveHint/0.25.1440.825@0.25.1440.825" timestamp="1614249002367" />
+    <state width="1275" height="239" key="GridCell.Tab.0.bottom" timestamp="1619685707959">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="1163" height="164" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1613568208453" />
+    <state width="1275" height="239" key="GridCell.Tab.0.bottom/0.25.1440.825@0.25.1440.825" timestamp="1619685707959" />
+    <state width="1275" height="239" key="GridCell.Tab.0.center" timestamp="1619685707958">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="1163" height="164" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1613568208452" />
+    <state width="1275" height="239" key="GridCell.Tab.0.center/0.25.1440.825@0.25.1440.825" timestamp="1619685707958" />
+    <state width="1275" height="239" key="GridCell.Tab.0.left" timestamp="1619685707957">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="1163" height="164" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1613568208452" />
+    <state width="1275" height="239" key="GridCell.Tab.0.left/0.25.1440.825@0.25.1440.825" timestamp="1619685707957" />
+    <state width="1275" height="239" key="GridCell.Tab.0.right" timestamp="1619685707958">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="1163" height="164" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1613568208453" />
+    <state width="1275" height="239" key="GridCell.Tab.0.right/0.25.1440.825@0.25.1440.825" timestamp="1619685707958" />
+    <state width="1275" height="239" key="GridCell.Tab.1.bottom" timestamp="1619685707960">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="1163" height="238" key="GridCell.Tab.1.bottom/0.23.1440.833@0.23.1440.833" timestamp="1612943165158" />
+    <state width="1275" height="239" key="GridCell.Tab.1.bottom/0.25.1440.825@0.25.1440.825" timestamp="1619685707960" />
+    <state width="1275" height="239" key="GridCell.Tab.1.center" timestamp="1619685707959">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="1163" height="238" key="GridCell.Tab.1.center/0.23.1440.833@0.23.1440.833" timestamp="1612943165157" />
+    <state width="1275" height="239" key="GridCell.Tab.1.center/0.25.1440.825@0.25.1440.825" timestamp="1619685707959" />
+    <state width="1275" height="239" key="GridCell.Tab.1.left" timestamp="1619685707959">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="1163" height="238" key="GridCell.Tab.1.left/0.23.1440.833@0.23.1440.833" timestamp="1612943165157" />
+    <state width="1275" height="239" key="GridCell.Tab.1.left/0.25.1440.825@0.25.1440.825" timestamp="1619685707959" />
+    <state width="1275" height="239" key="GridCell.Tab.1.right" timestamp="1619685707959">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="1163" height="238" key="GridCell.Tab.1.right/0.23.1440.833@0.23.1440.833" timestamp="1612943165158" />
+    <state width="1275" height="239" key="GridCell.Tab.1.right/0.25.1440.825@0.25.1440.825" timestamp="1619685707959" />
+    <state x="541" y="180" key="Vcs.Push.Dialog.v2" timestamp="1618985435022">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state x="541" y="180" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1618985435022" />
+    <state x="1016" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619597887366">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state x="1016" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.833@0.23.1440.833" timestamp="1613616547721" />
+    <state x="1016" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.825@0.25.1440.825" timestamp="1619597887366" />
+    <state x="562" y="194" width="599" height="486" key="find.popup" timestamp="1619600328196">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state x="562" y="194" width="599" height="486" key="find.popup/0.25.1440.825@0.25.1440.825" timestamp="1619600328196" />
+    <state x="639" y="200" key="run.anything.popup" timestamp="1612487437493">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="639" y="200" key="run.anything.popup/0.23.1440.833@0.23.1440.833" timestamp="1612487437493" />
+    <state x="600" y="174" width="670" height="676" key="search.everywhere.popup" timestamp="1618215097515">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state x="600" y="174" width="670" height="676" key="search.everywhere.popup/0.25.1440.825@0.25.1440.825" timestamp="1618215097515" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -653,491 +1189,136 @@
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leecode/MapSum677.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/noClassify/MapSum677.java</url>
           <line>34</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leecode/MapSum677.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/noClassify/MapSum677.java</url>
           <line>59</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leecode/Solution1001.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="96" />
+          <url>file://$PROJECT_DIR$/src/main/java/four/BubbleSort.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leecode/noClassify/Solution168.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/binarySearch/Solution33.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/stack/Solution20.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hashMap/ExtHashMap.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/two/sort/BasicSort.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/two/lcs/queen/Queen.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/noClassify/Solution46.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/noClassify/Solution46.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/stack/Solution255.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/string/Solution844.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/string/Solution763.java</url>
           <line>15</line>
-          <option name="timeStamp" value="97" />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/string/Solution763.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/string/Solution763.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/string/Solution763.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/string/Solution763.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/array/Solution1122.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/array/Solution1122.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/dynamicProgram/Solution674.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/array/Solution26.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/array/Solution27.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/array/Solution220.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leecode/string/Solution28.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="165" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="(c - 'a')" />
+      </configuration>
+    </watches-manager>
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/recursion/removeElement203.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/BSTSetSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="148" column="12" lean-forward="false" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/BinarySearchTree/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="254" column="9" lean-forward="false" selection-start-line="254" selection-start-column="9" selection-end-line="254" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/linkList/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/linkList/ExtLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="101" column="13" lean-forward="false" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/BinarySearchTree/LinkedListSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/BinarySearchTree/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/BinarySearchTree/BSTSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="64" lean-forward="false" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/BinarySearchTree/Main1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="29" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/BinarySearchTree/FileOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/map/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/map/LinkedListMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/map/BSTMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/maxHeap/MaxHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution347/Splotion347.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5525">
-          <caret line="367" column="30" lean-forward="false" selection-start-line="367" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution347/Solution1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/SegmentTree/NumArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/SegmentTree/SegmentTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/Trie/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/Trie/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Trie208.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/WordDictionary211.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/SegmentTree/NumArray2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/SegmentTree/NumArray3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zzzzz/zzzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/MapSum677.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/UnionFind/UF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/UnionFind/UnionFind1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="40" column="45" lean-forward="false" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/AVLTree/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/AVLTree/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3026">
-          <caret line="188" column="34" lean-forward="false" selection-start-line="188" selection-start-column="34" selection-end-line="188" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lintcode/Solution387.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/SegmentTree/NumArrayComplete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/maxHeap/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/one/AVLTree/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interview/nodes2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interview/notes1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution167.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution75.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution283.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution209.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/BSTSetSolution349.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="352" column="17" lean-forward="false" selection-start-line="352" selection-start-column="17" selection-end-line="352" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution349.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution350.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution220.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution219.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution454.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution447.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Solution206.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>data Structure</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dataStructure$Solution46.ic" NAME="Solution46 Coverage Results" MODIFIED="1600397684624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leecode.*</FILTER>
+    </SUITE>
   </component>
 </project>
