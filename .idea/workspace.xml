@@ -5,97 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67ea81ac-a072-4dab-a434-71a1f1be5af0" name="Default" comment="2021年4月26日23:02:15">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leecode/noClassify/Solution168.java" afterDir="false" />
-    </list>
-    <list id="6b7f21eb-741b-4a01-9209-6e486b65b032" name="ignore" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/some/Some.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/AbstractList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/ArrayList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/circle/CircleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/circle/SingleCircleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/single/SingleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/list/single/SingleLinkedList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xiaomage/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data Structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data Structure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTMapSolution350$BSTMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTMapSolution350$BSTMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTMapSolution350$Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTMapSolution350.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution$BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution$BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution$BSTSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution$Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution349$BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution349$BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution349$BSTSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution349$Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/BSTSetSolution349.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/DeleteElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListMapSolution350$LinkedListMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListMapSolution350$LinkedListMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListMapSolution350$Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListMapSolution350.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution$LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution$LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution$LinkedListSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution$Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution349$LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution349$LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution349$LinkedListSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution349$Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/LinkedListSetSolution349.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Solution347/Solution$Freq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leecode/Solution347/Solution$Freq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Solution347/Solution$PriorityQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leecode/Solution347/Solution$PriorityQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Solution347/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leecode/Solution347/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Solution349.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Solution350.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Trie208$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Trie208.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/removeElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/uniqueMorseRepresentations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lintcode/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lintcode/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lintcode/ReverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lintcode/ReverseLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/AVLTree/AVLTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/AVLTree/AVLTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/AVLTree/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/AVLTree/AVLTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/BinarySearchTree/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/BinarySearchTree/BST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/BinarySearchTree/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/BinarySearchTree/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/BinarySearchTree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/BinarySearchTree/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/UnionFind/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/UnionFind/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/UnionFind/UnionFind2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/UnionFind/UnionFind2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/UnionFind/UnionFind3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/UnionFind/UnionFind3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/array/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/array/Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/array/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/array/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/array/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/array/ArrayStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/array/SolutionBracket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/array/SolutionBracket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/array/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/array/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/linkList/LinkedListDummyHead$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/linkList/LinkedListDummyHead$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/linkList/LinkedListDummyHead.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/linkList/LinkedListDummyHead.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/linkList/LinkedStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/linkList/LinkedStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/maxHeap/MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/maxHeap/MaxHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/Graph/DnGraphTopologic$EdgeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/Graph/DnGraphTopologic$EdgeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/Graph/DnGraphTopologic$VertexNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/Graph/DnGraphTopologic$VertexNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/Graph/DnGraphTopologic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/Graph/DnGraphTopologic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/Graph/DnjavaDijstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/Graph/DnjavaDijstra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/Graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/Graph/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/binaryTree/BinaryTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/binaryTree/BinaryTree$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/binaryTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/binaryTree/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/binaryTree/SearchBinaryTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/binaryTree/SearchBinaryTree$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/binaryTree/SearchBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/binaryTree/SearchBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/chess/ChessBoradProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/chess/ChessBoradProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/dispatch/SportsSchedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/dispatch/SportsSchedule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/greedy/GreedyPackage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/greedy/GreedyPackage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/lcs/bigcount/BigCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/lcs/bigcount/BigCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/lcs/josephus/Josephus$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/lcs/josephus/Josephus$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/lcs/josephus/Josephus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/lcs/josephus/Josephus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/lcs/lcs/LCS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/lcs/lcs/LCS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/lcs/queen/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/lcs/queen/Queen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/recursion/CalNFact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/recursion/CalNFact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/recursion/Gcd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/recursion/Gcd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/recursion/HanNota.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/recursion/HanNota.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/recursion/Haonoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/search/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/search/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/sharewine/ShareWine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/sharewine/ShareWine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/sort/BasicSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/sort/BasicSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/sort/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/sort/HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/two/sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/two/sort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leecode/linkedList/Solution206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leecode/linkedList/Solution206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leecode/linkedList/Solution83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leecode/linkedList/Solution83.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/some/Some.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/some/Some.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/noClassify/Solution168.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leecode/noClassify/Solution168.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/noClassify/Solution42.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leecode/noClassify/Solution42.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/some/Some.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/some/Some.class" afterDir="false" />
     </list>
+    <list id="6b7f21eb-741b-4a01-9209-6e486b65b032" name="ignore" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,6 +82,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -228,7 +166,7 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
-    <option name="vmOptions" value="archetypeCatalog = internal" />
+    <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="644" />
@@ -289,34 +227,50 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/xiaomage/list" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\code\aDailyTopic\src\main\java\xiaomage\list" />
       <recent name="$PROJECT_DIR$/src/main/java/five" />
       <recent name="$PROJECT_DIR$/src/main/java/zuoChengYun/eight" />
       <recent name="$PROJECT_DIR$/src/main/java/zuoChengYun/six" />
       <recent name="$PROJECT_DIR$/src/main/java/zuoChengYun/five" />
-      <recent name="$PROJECT_DIR$/src/main/java/zuoChengYun/four" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="linkList" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Trie" />
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="linkList" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Solution168">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xiaomage.list.Main" />
+      <module name="data Structure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xiaomage.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Solution1001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.Solution1001" />
@@ -346,27 +300,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.Solution206" />
+    <configuration name="Solution83" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.linkedList.Solution83" />
       <module name="data Structure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution454" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.Solution454" />
-      <module name="data Structure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leecode.*" />
+          <option name="PATTERN" value="leecode.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,19 +371,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution454" />
-      <item itemvalue="Application.Solution206" />
       <item itemvalue="Application.Some" />
       <item itemvalue="Application.Solution1001" />
       <item itemvalue="Application.Solution168" />
+      <item itemvalue="Application.Solution83" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution168" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Solution83" />
         <item itemvalue="Application.Some" />
+        <item itemvalue="Application.Solution168" />
         <item itemvalue="Application.Solution1001" />
-        <item itemvalue="Application.Solution206" />
-        <item itemvalue="Application.Solution454" />
       </list>
     </recent_temporary>
   </component>
@@ -578,7 +518,9 @@
       <workItem from="1583370665473" duration="2272000" />
       <workItem from="1618742400553" duration="2389000" />
       <workItem from="1619443155242" duration="3593000" />
-      <workItem from="1625057055380" duration="3769000" />
+      <workItem from="1625057055380" duration="4124000" />
+      <workItem from="1626002238983" duration="14470000" />
+      <workItem from="1626269452307" duration="1817000" />
     </task>
     <task id="LOCAL-00001" summary="一次性提交">
       <created>1577972267618</created>

@@ -11,23 +11,22 @@ package some;
 public class Some {
     public static void main(String[] args) {
 
-        double zfb = 129264.07;
-        double wx = 174430.29 + 77;
+        double zfb = 98784.17+20000+30744.95;
+        double wx = 163604.03 + 11616.42;
         double zs = 5508.86;
-        double jd = 9540;
+        double jd = 9547;
         double gp = 56000;
         double gf = 39733; // 亏5000
         double gjj = 20000;
-        double qj = 20634.85;
 
         double js = 0;
         double ny = 0;
         double xianxian = 5000;
-        double fang = 1650;
+        double fang = 1300;
         double che = 3125;
         double huabei = 1000;
-        double zong = zfb + wx + zs + jd + gp + gf + gjj + js + ny + qj;
-        double hua = huabei + fang + che;
+        double zong = zfb + wx + zs + jd + gp + gf + gjj + js + ny;
+        double hua = huabei + fang ;
         System.out.println("总：" + zong);
         System.out.println("花销：" + hua);
         System.out.println("除去房租车贷花呗：" + (zong - hua));
