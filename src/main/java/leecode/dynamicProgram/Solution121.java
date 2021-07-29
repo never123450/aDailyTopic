@@ -1,4 +1,4 @@
-package leecode.noClassify;
+package leecode.dynamicProgram;
 
 /**
  * @description: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
@@ -64,6 +64,13 @@ public class Solution121 {
 
 
         return maxPrice;
+    }
+
+    public static void main(String[] args) {
+        Solution121 solution121  = new Solution121();
+        int[] n = new int[]{1,2,4,5,6};
+        int i = solution121.maxProfit1(n);
+        System.out.println(i);
     }
 
 }

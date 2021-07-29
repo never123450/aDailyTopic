@@ -1,4 +1,4 @@
-package leecode.noClassify;
+package leecode.dynamicProgram;
 
 /**
  * @description: https://leetcode-cn.com/problems/longest-palindromic-substring/
@@ -15,6 +15,7 @@ public class Solution5 {
      * 1.如果 s[i,j]的长度<=2 , s[i]=s[j] dp[i][j]=true ,s[i]!=s[j] dp[i][j]=false
      * 2.如果 s[i,j]的长度>2 , s[i+1][j-1]是回文串,且s[i]=s[j],dp[i][j]=true
      *
+     * 其实是基于暴力法的优化,优化的部分:判断每个串是否为回文串
      * @param s
      * @return
      */
@@ -29,7 +30,9 @@ public class Solution5 {
         int maxLen = 1;
         // 最长回文子串的开始索引
         int begin = 0;
+        // 从下到上
         for (int i = cs.length; i >= 0; i--) {
+            // 从左到右
             for (int j = i; j < dp.length; j++) {
                 dp[i][j] = (cs[i] == cs[j]) && (j - i <= 1 || dp[i + 1][j - 1]);
                 // cs[i,j]的长度
@@ -83,13 +86,12 @@ public class Solution5 {
      * @param cs
      * @param l
      * @param r
-     * @return 从哪 1 开始向左扫描,从 r 开始向右扫描,获得的最长回文子串的长度
+     * @return 从 l 开始向左扫描,从 r 开始向右扫描,获得的最长回文子串的长度
      */
     private int palindromeLength(char[] cs, int l, int r) {
         while (l >= 0 && r < cs.length && cs[l] == cs[r]) {
             l--;
             r++;
-
         }
         return r - l - 1;
     }

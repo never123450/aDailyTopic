@@ -61,4 +61,10 @@ public class Solution72 {
 
         return dp[cs1.length][cs2.length];
     }
+
+    public static void main(String[] args) {
+        Solution72 solution72 = new Solution72();
+        int i = solution72.minDistance("horse", "ros");
+        System.out.println(i);
+    }
 }
