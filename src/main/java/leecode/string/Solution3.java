@@ -71,8 +71,8 @@ public class Solution3 {
      * @return
      */
     public int lengthOfLongestSubstring2(String s) {
-        // pi是s[i]字符上一次出现的位置
-        // li 是以 s[i-1]字符结尾的最长不重复子串的开始索引(最左索引)
+        // pi 是 s[i] 字符上一次出现的位置
+        // li 是以 s[i-1] 字符结尾的最长不重复子串的开始索引(最左索引)
         if (s == null) return 0;
         char[] chars = s.toCharArray();
 
