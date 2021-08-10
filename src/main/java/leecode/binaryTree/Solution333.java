@@ -1,4 +1,6 @@
-package leecode.noClassify;
+package leecode.binaryTree;
+
+import leecode.noClassify.TreeNode;
 
 /**
  * @description: leetCode 只有会员才能看这个题

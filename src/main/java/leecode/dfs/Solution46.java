@@ -1,4 +1,4 @@
-package leecode.noClassify;
+package leecode.dfs;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -126,6 +126,24 @@ public class Solution46 {
         nums[i] = nums[j];
         nums[j] = tmp;
     }
+
+
+    private List<Integer> result1;
+
+    private void dfs11(int idx) {
+        if (idx == nums.length) {
+            list.add(new ArrayList<>(result1));
+            return;
+        }
+        //枚举这一层所有可以做出的选择
+        for (int i = 0; i < nums.length; i++) {
+            if (result1.contains(nums[i])) continue;
+            result1.add(nums[i]);
+            dfs(idx + 1);
+            result1.remove(result1.size() - 1);
+        }
+    }
+
 
     public static void main(String[] args) {
         Solution46 solution46 = new Solution46();

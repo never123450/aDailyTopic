@@ -4,6 +4,12 @@ import xiaomage.printer.BinaryTrees;
 
 import java.util.Random;
 
+/**
+ * @description:
+ * @author: xwy
+ * @create: 下午4:27 2021/8/6
+ **/
+
 public class TestMorrisTree {
 
     private static class MorrisTree extends BinarySearchTree<Integer> {

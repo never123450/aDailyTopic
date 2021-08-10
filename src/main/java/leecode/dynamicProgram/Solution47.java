@@ -1,4 +1,4 @@
-package leecode.noClassify;
+package leecode.dynamicProgram;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,21 +74,18 @@ public class Solution47 {
 
     private List<List<Integer>> list;
     private int[] nums;
-    private boolean[] used1;
     private int[] result;
 
     public List<List<Integer>> permuteUnique(int[] nums) {
         if (nums == null) return null;
         list = new ArrayList<>();
-        result = new int[nums.length];
-        used1 = new boolean[nums.length];
         if (nums.length == 0) return list;
         this.nums = nums;
         dfs(0);
         return list;
     }
 
-    // 值利用一个数组,反复交换位置
+    // 只利用一个数组,反复交换位置
     // 0号位置分别和 0,1,2 号位置进行交换    让 1 号位置分别和1,2 号位置进行交换   让 2 号位置和 2 号位置进行交换
     private void dfs(int idx) {
         if (idx == nums.length) {
@@ -96,10 +93,6 @@ public class Solution47 {
             for (int value : nums) {
                 resultList.add(value);
             }
-            // 去重
-//            if (!list.contains(resultList)){
-//                list.add(resultList);
-//            }
             list.add(resultList);
             return;
         }
@@ -107,7 +100,6 @@ public class Solution47 {
         // 枚举这一层所有可以做出的选择
         for (int i = idx; i < nums.length; i++) {
             if (isRepeat(nums, idx, i)) continue;
-            result[i] = nums[i];
             swap(idx, i);
             dfs(idx + 1);
             swap(idx, i);
@@ -128,11 +120,9 @@ public class Solution47 {
     }
 
     public static void main(String[] args) {
-
         Solution47 solution47 = new Solution47();
         List<List<Integer>> lists = solution47.permuteUnique(new int[]{1, 2, 3, 1});
         System.out.println(lists);
-
     }
 
 }
