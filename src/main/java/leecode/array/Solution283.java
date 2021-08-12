@@ -11,8 +11,8 @@ public class Solution283 {
 
     /**
      * 双指针
-     * @param nums
-     * left:(0 的尾部)交换完成的尾部, right:循环
+     *
+     * @param nums left:(0 的尾部)交换完成的尾部, right:循环
      * @return
      */
     public int[] moveZeroes(int[] nums) {
@@ -32,12 +32,12 @@ public class Solution283 {
     public int[] moveZeroes1(int[] nums) {
         int index = 0;
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i]!=0){
+            if (nums[i] != 0) {
                 nums[index++] = nums[i];
             }
         }
-        while (index<nums.length){
-            nums[index++]=0;
+        while (index < nums.length) {
+            nums[index++] = 0;
         }
         return nums;
     }
@@ -49,6 +49,85 @@ public class Solution283 {
         nums[y] = temp;
     }
 
+
+    // --------------------------------------------
+
+    /**
+     * @description: https://leetcode-cn.com/problems/move-zeroes/
+     * 移动零
+     * <p>
+     * 27题   26题   80题
+     * @author: xwy
+     * @create: 4:20 PM 2020/2/27
+     **/
+
+    /*
+     * 时间复杂度 O(n)
+     * 空间复杂度 O(n)
+     */
+    public void moveZeroes2(int[] nums) {
+        int[] nonZero = new int[nums.length];
+        int j = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                nonZero[j++] = nums[i];
+            }
+        }
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = nonZero[i];
+            System.out.print(nums[i] + " ");
+        }
+    }
+
+    /*
+     * 时间复杂度 O(n)
+     * 空间复杂度 O(1)
+     */
+    public void moveZeroes3(int[] nums) {
+        int k = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                nums[k++] = nums[i];
+            }
+        }
+
+        for (int i = k; i < nums.length; i++) {
+            nums[i] = 0;
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print(nums[i] + " ");
+        }
+    }
+
+    /*
+     * 时间复杂度 O(n)
+     * 空间复杂度 O(1)
+     */
+    public void moveZeroes4(int[] nums) {
+        int k = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                if (i != k) {
+                    swap2(k++, i, nums);
+                } else {
+                    k++;
+                }
+            }
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print(nums[i] + " ");
+        }
+    }
+
+    private void swap2(int i, int k, int[] nums) {
+        int temp = nums[i];
+        nums[i] = nums[k];
+        nums[k] = temp;
+    }
+
+    //----------------------------------------------
 
     public static void main(String[] args) {
         Solution283 solution283 = new Solution283();
