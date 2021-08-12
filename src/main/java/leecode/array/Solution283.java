@@ -127,11 +127,30 @@ public class Solution283 {
         nums[k] = temp;
     }
 
+    /**
+     * 遍历一遍
+     *
+     * @param nums
+     * @return
+     */
+    public int[] moveZeroes5(int[] nums) {
+        if (nums == null) return null;
+        for (int i = 0, cur = 0; i < nums.length; i++) {
+            if (nums[i] == 0) continue;
+            if (cur != i) {
+                nums[cur] = nums[i];
+                nums[i] = 0;
+            }
+            cur++;
+        }
+        return nums;
+    }
+
     //----------------------------------------------
 
     public static void main(String[] args) {
         Solution283 solution283 = new Solution283();
-        int[] ints = solution283.moveZeroes(new int[]{0, 1, 0, 3, 12});
+        int[] ints = solution283.moveZeroes5(new int[]{1});
         for (int i = 0; i < ints.length; i++) {
             System.out.print(ints[i] + " ");
         }
