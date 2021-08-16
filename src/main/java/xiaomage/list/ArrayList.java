@@ -1,29 +1,22 @@
 package xiaomage.list;
 
 @SuppressWarnings("unchecked")
-/**
- * @Description
- * @author xwy
- * @date 2021/7/14
- * @param  
- * @return 
- */
 public class ArrayList<E> extends AbstractList<E> {
 	/**
 	 * 所有的元素
 	 */
 	private E[] elements;
 	private static final int DEFAULT_CAPACITY = 10;
-	
+
 	public ArrayList(int capaticy) {
 		capaticy = (capaticy < DEFAULT_CAPACITY) ? DEFAULT_CAPACITY : capaticy;
 		elements = (E[]) new Object[capaticy];
 	}
-	
+
 	public ArrayList() {
 		this(DEFAULT_CAPACITY);
 	}
-	
+
 	/**
 	 * 清除所有元素
 	 */
@@ -41,8 +34,8 @@ public class ArrayList<E> extends AbstractList<E> {
 	 */
 	public E get(int index) { // O(1)
 		rangeCheck(index);
-		
-		return elements[index]; 
+
+		return elements[index];
 	}
 
 	/**
@@ -53,7 +46,7 @@ public class ArrayList<E> extends AbstractList<E> {
 	 */
 	public E set(int index, E element) { // O(1)
 		rangeCheck(index);
-		
+
 		E old = elements[index];
 		elements[index] = element;
 		return old;
@@ -64,16 +57,16 @@ public class ArrayList<E> extends AbstractList<E> {
 	 * @param index
 	 * @param element
 	 */
-	public void add(int index, E element) { 
+	public void add(int index, E element) {
 		/*
 		 * 最好：O(1)
 		 * 最坏：O(n)
 		 * 平均：O(n)
 		 */
 		rangeCheckForAdd(index);
-		
+
 		ensureCapacity(size + 1);
-		
+
 		for (int i = size; i > index; i--) {
 			elements[i] = elements[i - 1];
 		}
@@ -93,7 +86,7 @@ public class ArrayList<E> extends AbstractList<E> {
 		 * 平均：O(n)
 		 */
 		rangeCheck(index);
-		
+
 		E old = elements[index];
 		for (int i = index + 1; i < size; i++) {
 			elements[i - 1] = elements[i];
@@ -119,7 +112,7 @@ public class ArrayList<E> extends AbstractList<E> {
 		}
 		return ELEMENT_NOT_FOUND;
 	}
-	
+
 	/**
 	 * 保证要有capacity的容量
 	 * @param capacity
@@ -127,7 +120,7 @@ public class ArrayList<E> extends AbstractList<E> {
 	private void ensureCapacity(int capacity) {
 		int oldCapacity = elements.length;
 		if (oldCapacity >= capacity) return;
-		
+
 		// 新容量为旧容量的1.5倍
 		int newCapacity = oldCapacity + (oldCapacity >> 1);
 		E[] newElements = (E[]) new Object[newCapacity];
@@ -135,10 +128,10 @@ public class ArrayList<E> extends AbstractList<E> {
 			newElements[i] = elements[i];
 		}
 		elements = newElements;
-		
+
 		System.out.println(oldCapacity + "扩容为" + newCapacity);
 	}
-	
+
 	@Override
 	public String toString() {
 		// size=3, [99, 88, 77]
@@ -148,9 +141,9 @@ public class ArrayList<E> extends AbstractList<E> {
 			if (i != 0) {
 				string.append(", ");
 			}
-			
+
 			string.append(elements[i]);
-			
+
 //			if (i != size - 1) {
 //				string.append(", ");
 //			}

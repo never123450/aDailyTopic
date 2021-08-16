@@ -65,6 +65,15 @@ public class Solution20 {
         return stack.isEmpty();
     }
 
+    public boolean isValid2(String s) {
+        while (s.contains("{}") || s.contains("[]") || s.contains("()")){
+            s = s.replace("{}","");
+            s = s.replace("()","");
+            s = s.replace("[]","");
+        }
+        return s.isEmpty();
+    }
+
     public static void main(String[] args) {
         Solution20 solution20 = new Solution20();
         boolean valid = solution20.isValid("()}");
