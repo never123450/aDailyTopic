@@ -1,4 +1,4 @@
-package leecode.noClassify;
+package leecode.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
