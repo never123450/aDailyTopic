@@ -7,13 +7,10 @@ import xiaomage.sort.tools.Integers;
 import java.util.Arrays;
 
 /**
- *
  * @description: 冒泡排序 测试
- *
  * @author: xwy
- *
  * @create: 6:40 AM 2020/8/6
-**/
+ **/
 
 public class Main {
 
