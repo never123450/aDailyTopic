@@ -51,4 +51,44 @@ public class RadixSort extends Sort<Integer> {
             array[i] = newArray[i];
         }
     }
+
+    public int[] sort1(int[] array) {
+        int max = array[0];
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > max) {
+                max = array[i];
+            }
+        }
+        // 桶数组
+        int[][] buckets = new int[10][array.length];
+        // 每个桶的元素数量
+        int[] bucketSizes = new int[buckets.length];
+        for (int divider = 1; divider < array.length; divider *= 10) {
+            for (int i = 0; i < array.length; i++) {
+                int no = array[i] / divider % 10;
+                buckets[no][bucketSizes[no]++] = array[i];
+            }
+        }
+        int index = 0;
+        for (int i = 0; i < buckets.length; i++) {
+            for (int j = 0; j < bucketSizes[i]; j++) {
+                array[index++] = buckets[i][j];
+            }
+            bucketSizes[i] = 0;
+        }
+
+        int[] result = new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            result[i] = array[i];
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        RadixSort radixSort = new RadixSort();
+        int[] ints = radixSort.sort1(new int[]{199, 100, 11, 22, 3, 354, 67});
+        for (int i = 0; i < ints.length; i++) {
+            System.out.print(ints[i] + " ");
+        }
+    }
 }
