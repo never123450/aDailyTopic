@@ -1,5 +1,12 @@
 package xiaomage.hash;
 
+/**
+ * @Description
+ * @author xwy
+ * @date 17/9/2021 下午8:06
+ * @param
+ * @return
+ */
 public interface Map<K, V> {
 	int size();
 	boolean isEmpty();

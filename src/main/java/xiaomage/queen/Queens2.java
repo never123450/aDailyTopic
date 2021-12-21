@@ -1,4 +1,4 @@
-package xiaomage.queue;
+package xiaomage.queen;
 
 /**
  *

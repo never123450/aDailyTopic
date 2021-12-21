@@ -2,11 +2,21 @@ package xiaomage.tree;
 
 import xiaomage.printer.BinaryTreeInfo;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Comparator;
+import java.util.Date;
 import java.util.LinkedList;
 import java.util.Queue;
 
-
+/**
+ * @Description  
+ * @author xwy
+ * @date 25/8/2021 下午8:17
+ * @param 
+ * @param null 
+ * @return 
+ */
 public class BinarySearchTree<E> implements BinaryTreeInfo {
     private int size;
     public Node<E> root;
@@ -425,7 +435,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
     private Node<E> successor(Node<E> node) {
         if (node == null) return null;
 
-        // 前驱节点在左子树当中（right.left.left.left....）
+        // 后继节点在左子树当中（right.left.left.left....）
         Node<E> p = node.right;
         if (p != null) {
             while (p.left != null) {

@@ -5,7 +5,7 @@ import java.util.Stack;
 public class Main {
 
 	public static void main(String[] args) {
-		log(6);
+		log3(6);
 	}
 	
 	static class Frame {
@@ -26,6 +26,20 @@ public class Main {
 		while (!frames.isEmpty()) {
 			Frame frame = frames.pop();
 			System.out.println(frame.v);
+		}
+	}
+
+
+	static void log3(int n) {
+		System.out.println("log3");
+		Stack<Integer> stack = new Stack<>();
+		while (n > 0) {
+			stack.push(n+10);
+			n--;
+		}
+		while (!stack.isEmpty()) {
+			int frame = stack.pop();
+			System.out.println(frame);
 		}
 	}
 	

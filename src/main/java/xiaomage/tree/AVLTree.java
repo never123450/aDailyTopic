@@ -147,6 +147,13 @@ public class AVLTree<E> extends BBST<E> {
 			height = 1 + Math.max(leftHeight, rightHeight);
 		}
 
+		/**
+		 * @Description 高度比较高的子树
+		 * @author xwy
+		 * @date 28/8/2021 上午11:52
+		 * @param
+		 * @return xiaomage.tree.BinaryTree.Node<E>
+		 */
 		public Node<E> tallerChild() {
 			int leftHeight = left == null ? 0 : ((AVLNode<E>)left).height;
 			int rightHeight = right == null ? 0 : ((AVLNode<E>)right).height;

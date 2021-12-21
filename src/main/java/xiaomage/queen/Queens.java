@@ -1,4 +1,4 @@
-package xiaomage.queue;
+package xiaomage.queen;
 
 /**
  * @description: n 皇后问题

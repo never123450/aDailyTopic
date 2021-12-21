@@ -1,6 +1,8 @@
 
 /**
  * @description:
+ * idae git 插件
+ * https://plugins.jetbrains.com/plugin/7499-gittoolbox
  * @author: xwy
  * @create: 下午5:09 2021/2/24
  **/

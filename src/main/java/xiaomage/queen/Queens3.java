@@ -1,4 +1,4 @@
-package xiaomage.queue;
+package xiaomage.queen;
 
 /**
  * @description: 8 皇后问题,优化 2   使用二进制优化
