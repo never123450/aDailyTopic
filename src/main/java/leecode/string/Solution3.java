@@ -1,4 +1,4 @@
-package leecode.noClassify;
+package leecode.string;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -67,7 +67,10 @@ public class Solution3 {
     }
 
     /**
-     * @param s
+     * @Description  类似动态规划
+     * @author xwy
+     * @date 11/1/2022 下午8:53
+     * @param
      * @return
      */
     public int lengthOfLongestSubstring2(String s) {

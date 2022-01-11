@@ -79,6 +79,7 @@ public class SkipList<K, V> {
                 node.nexts[i].value = value;
                 return oldV;
             }
+            // prevs[3] = 6
             prevs[i] = node;
         }
 
