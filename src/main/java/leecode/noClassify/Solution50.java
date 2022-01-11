@@ -41,6 +41,7 @@ public class Solution50 {
         long y = neg ? -((long)n) : n;
         while (y > 0) {
             if ((y & 1) == 1) {
+                // 如果最后一位二进制为 1
                 res *= x;
             }
             x *= x;
@@ -52,7 +53,7 @@ public class Solution50 {
 
     public static void main(String[] args) {
         Solution50 solution50 = new Solution50();
-        double v = solution50.myPow(2.1, -3);
+        double v = solution50.myPow(4, 2);
         System.out.println(v);
     }
 }

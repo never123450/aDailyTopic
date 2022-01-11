@@ -14,6 +14,11 @@ import java.util.Queue;
 import java.util.Set;
 import java.util.Stack;
 
+/**
+ * @description: 图
+ * @author: xwy
+ * @create: 下午5:53 2021/11/16
+ **/
 
 @SuppressWarnings("unchecked")
 public class ListGraph<V, E> extends Graph<V, E> {
