@@ -1,4 +1,4 @@
-package leecode.noClassify;
+package leecode.dynamicProgram;
 
 /**
  * @description: https://leetcode-cn.com/problems/edit-distance/
