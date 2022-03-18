@@ -66,6 +66,7 @@ public class Solution5 {
         for (int i = cs.length - 2; i >= 1; i--) {
             // 以字符为中心向左右扩展
             int len1 = palindromeLength(cs, i - 1, i + 1);
+            // 以间隙为中心
             int len2 = palindromeLength(cs, i, i + 1);
             len1 = Math.max(len1, len2);
             if (len1 > maxLen) {
