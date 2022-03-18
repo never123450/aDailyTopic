@@ -115,10 +115,19 @@ public class Solution46 {
 
         // 枚举这一层所有可以做出的选择
         for (int i = idx; i < nums.length; i++) {
+            // 保证一个数字在ids位置只会出现一次
+            if (isRepeat(nums, idx, i)) continue;
             swap(idx, i);
             dfs1(idx + 1);
             swap(idx, i);
         }
+    }
+
+    private boolean isRepeat(int[] nums, int idx, int i) {
+        for (int j = idx; j < i; j++) {
+            if (nums[j] == nums[i]) return true;
+        }
+        return false;
     }
 
     private void swap(int i, int j) {

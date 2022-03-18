@@ -63,4 +63,16 @@ public class Solution70 {
             return result;
         }
     }
+
+    public int climbStairs6(int n) {
+        int prepre = 1;
+        int pre = 2;
+        int result = 0;
+        for (int i = 0; i <= n; i++) {
+            result = pre+prepre;
+            prepre = pre;
+            pre = result;
+        }
+        return result;
+    }
 }

@@ -22,7 +22,7 @@ public class Solution1 {
         for (int i = 0; i < nums.length; i++) {
             int x = target - nums[i];
             if (map.containsKey(x) && map.get(x) != i) {
-                return new int[] {i,map.get(x)};
+                return new int[]{i, map.get(x)};
             }
         }
 
@@ -49,6 +49,7 @@ public class Solution1 {
 
     /**
      * 遍历一遍 hash
+     *
      * @param nums
      * @param target
      * @return

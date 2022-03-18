@@ -14,8 +14,9 @@ public class Solution5 {
      * dp[i][j] 表示s[i,j]是否为回文串
      * 1.如果 s[i,j]的长度<=2 , s[i]=s[j] dp[i][j]=true ,s[i]!=s[j] dp[i][j]=false
      * 2.如果 s[i,j]的长度>2 , s[i+1][j-1]是回文串,且s[i]=s[j],dp[i][j]=true
-     *
+     * <p>
      * 其实是基于暴力法的优化,优化的部分:判断每个串是否为回文串
+     *
      * @param s
      * @return
      */
@@ -113,26 +114,24 @@ public class Solution5 {
         int i = 0;
         while (i < cs.length) {
 
-            // l向左 r向右扩展
             int l = i - 1;
 
             // 找到右边第一个不等于 cs[i] 的位置
             int r = i;
-            while (++r < cs.length && cs[r] == cs[i]) {
-                i = r;
+            while (++r < cs.length && cs[r] == cs[i]) ;
+            i = r;
 
-                // l向左 r向右扩展
-                while (l >= 0 && r < cs.length) {
-                    l++;
-                    r++;
-                }
+            // l向左 r向右扩展  aaab
+            while (l >= 0 && r < cs.length && cs[l] == cs[r]) {
+                l--;
+                r++;
+            }
 
-                // 扩展结束 cs(l,r) 最大回文长度
-                int len = r - ++l;
-                if (len > maxLen) {
-                    maxLen = len;
-                    begin = l;
-                }
+            // 扩展结束 cs(l,r) 最大回文长度
+            int len = r - ++l;
+            if (len > maxLen) {
+                maxLen = len;
+                begin = l;
             }
         }
         return new String(cs, begin, maxLen);
@@ -201,6 +200,14 @@ public class Solution5 {
             cs[inx + 1] = '#';
         }
         return cs;
+    }
+
+    public static void main(String[] args) {
+        Solution5 solution5 = new Solution5();
+        String s = solution5.longestPalindrome1("aaab");
+        System.out.println(s);
+
+
     }
 
 }

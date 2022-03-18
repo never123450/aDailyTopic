@@ -49,10 +49,10 @@ public class Solution88 {
                 temp[i] = nums2[ni++];
             } else if (ni >= n) {
                 temp[i] = nums1[mi++];
-            } else if (nums1[mi] < nums2[ni]) {
-                temp[i] = nums1[mi++];
-            } else {
+            } else if (nums1[mi] > nums2[ni]) {
                 temp[i] = nums2[ni++];
+            } else {
+                temp[i] = nums1[mi++];
             }
         }
         for (int i = 0; i < nums1.length; i++) {
@@ -72,15 +72,26 @@ public class Solution88 {
      */
     public void merge3(int[] nums1, int m, int[] nums2, int n) {
 
+        for (int i = nums1.length - 1; i >= 0; i--) {
+            if (m <= 0) {
+                nums1[i] = nums2[--n];
+            } else if (n <= 0) {
+                nums1[i] = nums1[--m];
+            } else if (nums1[m - 1] > nums2[n - 1]) {
+                nums1[i] = nums1[--m];
+            } else {
+                nums1[i] = nums2[--n];
+            }
+        }
     }
 
     public static void main(String[] args) {
         Solution88 solution88 = new Solution88();
-        int[] num1 = new int[]{1, 2, 3, 0, 0, 0};
-        int[] num2 = new int[]{2, 5, 6};
-        int m = 3;
-        int n = 3;
-        solution88.merge2(num1, m, num2, n);
+        int[] num1 = new int[]{0};
+        int[] num2 = new int[]{1};
+        int m = 0;
+        int n = 1;
+        solution88.merge3(num1, m, num2, n);
         for (int i = 0; i < num1.length; i++) {
             System.out.print(num1[i]);
         }
