@@ -1,7 +1,5 @@
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
+import java.util.*;
 
 /**
  * @description:
@@ -10,7 +8,6 @@ import java.util.List;
  **/
 
 public class Test2 {
-    static boolean boolValue;
 
     public static void main(String[] args) {
 //        boolValue = true; // 将这个 true 替换为 2 或者 3，再看看打印结果

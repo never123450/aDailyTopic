@@ -1,4 +1,4 @@
-package leecode.noClassify;
+package leecode.linkedList;
 
 import leecode.ListNode;
 
