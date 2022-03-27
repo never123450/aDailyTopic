@@ -1,8 +1,8 @@
-package leecode.noClassify;
+package leecode.binaryTree;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import leecode.noClassify.TreeNode;
+
+import java.util.*;
 
 /**
  * @description: https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
@@ -91,6 +91,30 @@ public class Solution144 {
 
             list.add(0,pop.val);
         }
+    }
+
+
+    /**
+     * @param
+     * @param root
+     * @return java.util.List<java.lang.Integer>
+     * @Description 前序遍历，非递归，使用栈
+     * @author xwy
+     * @date 27/3/2022 下午6:03
+     */
+    public List<Integer> midnonRecursion5(leecode.noClassify.TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        Deque<leecode.noClassify.TreeNode> stack = new LinkedList<>();
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                res.add(root.val);
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            root = root.right;
+        }
+        return res;
     }
 
 
