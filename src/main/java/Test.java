@@ -23,7 +23,19 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        new Sub();
+//        new Sub();
+
+        Test test = new Test();
+        int func = test.func(6);
+        System.out.println(func);
+        // 2+3+4+5
+    }
+
+    private int func(int n) {
+        if (n<=2){
+            return n;
+        }
+        return func(n-1)+func(n-2);
     }
 }
 
