@@ -5,7 +5,7 @@ import leecode.ListNode;
 /**
  * @description: https://leetcode-cn.com/problems/remove-linked-list-elements/
  * 移除链表元素 和237同
- *
+ * <p>
  * 练习: 21 82
  * @author: xwy
  * @create: 10:25 AM 2020/3/5
@@ -13,15 +13,23 @@ import leecode.ListNode;
 
 public class Solution203 {
 
+    /**
+     * @param
+     * @param head
+     * @param val
+     * @return leecode.ListNode
+     * @Description 虚拟头结点
+     * @author xwy
+     * @date 2022-07-23 下午7:50
+     */
     public ListNode removeElements(ListNode head, int val) {
         ListNode header = new ListNode(-1);
         header.next = head;
         ListNode cur = header;
         while (cur.next != null) {
-            if (cur.next.val == val){
-                ListNode del = cur.next;
+            if (cur.next.val == val) {
                 cur.next = cur.next.next;
-            }else {
+            } else {
                 cur = cur.next;
             }
         }
@@ -64,4 +72,20 @@ public class Solution203 {
         solution203.pringLinkedList(pre);
 
     }
+
+    /**
+     * @param head
+     * @param val
+     * @return leecode.ListNode
+     * @Description 递归  看不懂？？？？？？？？？？？？？？
+     * @author xwy
+     * @date 2022-07-23 下午7:50
+     */
+    public ListNode removeElements12(ListNode head, int val) {
+        if (head == null) return head;
+        head.next = removeElements12(head.next, val);
+        return head.val == val ? head.next : head;
+    }
+
+
 }

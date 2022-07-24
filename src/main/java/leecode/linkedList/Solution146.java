@@ -1,4 +1,4 @@
-package leecode.noClassify;
+package leecode.linkedList;
 
 
 import java.util.HashMap;
@@ -93,5 +93,18 @@ public class Solution146 {
 
         public Node() {
         }
+    }
+
+    public static void main(String[] args) {
+        Map<Integer,Object> map = new HashMap<>();
+        map.put(1,'a');
+        map.put(2,'b');
+        map.put(3,'c');
+        System.out.println(map.keySet().iterator().next());
+        Object remove = map.remove(2);
+        System.out.println(remove);
+        map.put(2,'b');
+        System.out.println(map.keySet().iterator().next());
+
     }
 }
